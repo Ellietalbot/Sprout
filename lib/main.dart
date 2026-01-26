@@ -52,40 +52,29 @@ class _MyHomePageState extends State<MyHomePage> {
         page = const HomePage();
         break;
       case 1:
-        page = const FavoritesPage();
+        page = const CompletedPage();
         break;
       default:
         page = const HomePage();
     }
 
     return Scaffold(
-      body: Row(
-        children: [
-          SafeArea(
-            child: NavigationRail(
-              selectedIndex: selectedIndex,
-              onDestinationSelected: (value) {
-                setState(() {
-                  selectedIndex = value;
-                });
-              },
-              destinations: const [
-                NavigationRailDestination(
-                  icon: Icon(Icons.home),
-                  label: Text('Home'),
-                ),
-                NavigationRailDestination(
-                  icon: Icon(Icons.favorite),
-                  label: Text('Favorites'),
-                ),
-              ],
-            ),
-          ),
-          Expanded(
-            child: Container(
-              color: Theme.of(context).colorScheme.primaryContainer,
-              child: page,
-            ),
+      body: Container(
+        color: Theme.of(context).colorScheme.primaryContainer,
+        child: page,
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        currentIndex: selectedIndex,
+        onTap: (value) {
+          setState(() {
+            selectedIndex = value;
+          });
+        },
+        items: const [
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.check),
+            label: 'Completed',
           ),
         ],
       ),
@@ -101,24 +90,18 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Center(
-      child: Text(
-        'Home Page',
-        style: TextStyle(fontSize: 24),
-      ),
+      child: Text('Home Page', style: TextStyle(fontSize: 24)),
     );
   }
 }
 
-class FavoritesPage extends StatelessWidget {
-  const FavoritesPage({super.key});
+class CompletedPage extends StatelessWidget {
+  const CompletedPage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return const Center(
-      child: Text(
-        'Favorites Page',
-        style: TextStyle(fontSize: 24),
-      ),
+      child: Text('Completed Page', style: TextStyle(fontSize: 24)),
     );
   }
 }

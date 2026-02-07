@@ -1,0 +1,322 @@
+{
+  "lessons": [
+    {
+      "title": "Cleaning and Organizing",
+      "difficulty": "Easy → Hard",
+      "questions": [
+        {
+          "question": "Which surface should you clean first in a kitchen?",
+          "options": {
+            "a": "Floors",
+            "b": "Countertops",
+            "c": "Ceiling",
+            "d": "Windows"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Which cleaning tool is best for dusting shelves?",
+          "options": {
+            "a": "Mop",
+            "b": "Feather duster",
+            "c": "Vacuum cleaner",
+            "d": "Sponge"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "When organizing a drawer, what’s a good first step?",
+          "options": {
+            "a": "Put everything back randomly",
+            "b": "Take everything out and sort items",
+            "c": "Buy new items",
+            "d": "Leave it as it is"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Which of the following is safest to use on most furniture surfaces?",
+          "options": {
+            "a": "Bleach",
+            "b": "Mild soap and water",
+            "c": "Oven cleaner",
+            "d": "Sandpaper"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "How often should you make your bed?",
+          "options": {
+            "a": "Once a week",
+            "b": "Every morning",
+            "c": "Once a month",
+            "d": "Never"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Which is the proper order for cleaning a room?",
+          "options": {
+            "a": "Dust → Vacuum → Mop",
+            "b": "Mop → Vacuum → Dust",
+            "c": "Vacuum → Dust → Mop",
+            "d": "Mop → Dust → Vacuum"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "To reduce clutter, which method is effective?",
+          "options": {
+            "a": "Keep all items",
+            "b": "Donate or discard unused items",
+            "c": "Hide them in drawers",
+            "d": "Stack everything in corners"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "A “caddy” in cleaning refers to:",
+          "options": {
+            "a": "A type of vacuum",
+            "b": "A container for cleaning supplies",
+            "c": "A mop handle",
+            "d": "A laundry basket"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Which is the best place to store frequently used cleaning tools?",
+          "options": {
+            "a": "High shelf",
+            "b": "Laundry room",
+            "c": "Easily accessible spot",
+            "d": "Garage"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "What is the main reason to separate laundry by color?",
+          "options": {
+            "a": "To save water",
+            "b": "To avoid color bleeding",
+            "c": "To make it heavier",
+            "d": "To make washing faster"
+          },
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Laundry Care",
+      "difficulty": "Easy → Hard",
+      "questions": [
+        {
+          "question": "Which symbol indicates machine wash on a clothing label?",
+          "options": {
+            "a": "Triangle",
+            "b": "Circle",
+            "c": "Square with a circle inside",
+            "d": "Bucket with water"
+          },
+          "answer": "d"
+        },
+        {
+          "question": "Why should you check pockets before washing clothes?",
+          "options": {
+            "a": "To find money",
+            "b": "To avoid washing small items that can damage the machine",
+            "c": "To see what’s inside",
+            "d": "To make laundry smell better"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Which fabric is typically safest for high-temperature drying?",
+          "options": {
+            "a": "Cotton",
+            "b": "Wool",
+            "c": "Silk",
+            "d": "Linen"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "How can you prevent colors from fading in laundry?",
+          "options": {
+            "a": "Wash in hot water every time",
+            "b": "Use color-safe detergent and cold water",
+            "c": "Dry in direct sunlight",
+            "d": "Shake clothes before washing"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Why should delicate fabrics be washed separately?",
+          "options": {
+            "a": "They dry slower",
+            "b": "They can get damaged by rough fabrics",
+            "c": "They smell better",
+            "d": "They are heavier"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Which is a recommended method for removing stains from clothing?",
+          "options": {
+            "a": "Rub with soap immediately and rinse",
+            "b": "Wash immediately in hot water",
+            "c": "Iron over the stain",
+            "d": "Ignore it until next laundry"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "Why should you turn printed T-shirts inside out before washing?",
+          "options": {
+            "a": "To make them look cleaner",
+            "b": "To prevent the print from cracking or fading",
+            "c": "To save detergent",
+            "d": "To dry faster"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "What does the “hand wash only” label indicate?",
+          "options": {
+            "a": "Machine wash is okay",
+            "b": "Use only hands, no machines",
+            "c": "Only soak for 5 minutes",
+            "d": "Use bleach"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "How often should towels be washed?",
+          "options": {
+            "a": "Once a week",
+            "b": "Once a month",
+            "c": "Every day",
+            "d": "Never"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "Which laundry product helps soften clothes?",
+          "options": {
+            "a": "Fabric softener",
+            "b": "Bleach",
+            "c": "Detergent booster",
+            "d": "Dish soap"
+          },
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Kitchen Hygiene",
+      "difficulty": "Easy → Hard",
+      "questions": [
+        {
+          "question": "Which utensil should never be used on a nonstick pan?",
+          "options": {
+            "a": "Wooden spoon",
+            "b": "Silicone spatula",
+            "c": "Metal fork",
+            "d": "Rubber spatula"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "How should you store raw meat in the refrigerator?",
+          "options": {
+            "a": "On the top shelf",
+            "b": "On the bottom shelf",
+            "c": "Next to cooked food",
+            "d": "Anywhere"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Why should you wipe spills immediately?",
+          "options": {
+            "a": "To make the floor shiny",
+            "b": "To prevent slips and bacteria growth",
+            "c": "To save cleaning products",
+            "d": "To make cooking faster"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "What is the safest way to thaw frozen meat?",
+          "options": {
+            "a": "Leave it on the counter",
+            "b": "In the refrigerator",
+            "c": "In hot water",
+            "d": "In sunlight"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Which is the best way to clean a cutting board after chopping raw meat?",
+          "options": {
+            "a": "Wash with soap and hot water",
+            "b": "Rinse with cold water",
+            "c": "Wipe with a paper towel",
+            "d": "Soak in water for a week"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "Why shouldn’t you mix cleaning chemicals like bleach and ammonia?",
+          "options": {
+            "a": "It creates bubbles",
+            "b": "It can release toxic gases",
+            "c": "It makes them less effective",
+            "d": "It smells better"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Which kitchen item is safest to clean in a dishwasher?",
+          "options": {
+            "a": "Wooden spoon",
+            "b": "Stainless steel pan",
+            "c": "Knife with wooden handle",
+            "d": "Nonstick pan"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "How should you store leftover cooked food?",
+          "options": {
+            "a": "At room temperature",
+            "b": "In airtight containers in the fridge",
+            "c": "In a paper bag",
+            "d": "Covered loosely on the counter"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "What is the main reason to regularly clean the fridge?",
+          "options": {
+            "a": "To organize shelves",
+            "b": "To remove old food and prevent bacteria growth",
+            "c": "To make it smell good",
+            "d": "To make it look new"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "How can cross-contamination be avoided?",
+          "options": {
+            "a": "Wash hands and utensils between handling raw and cooked food",
+            "b": "Use the same knife for everything",
+            "c": "Leave food uncovered",
+            "d": "Store all food together"
+          },
+          "answer": "a"
+        }
+      ]
+    }
+  ]
+}

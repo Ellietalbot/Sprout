@@ -855,6 +855,1076 @@
           "answer": "c"
         }
       ]
+    },
+    {
+      "title": "Dashboard Warning Lights",
+      "difficulty": "Easy",
+      "category": "Car Care",
+      "questions": [
+        {
+          "question": "What does the check engine light usually indicate?",
+          "options": {
+            "a": "Low tire pressure",
+            "b": "Engine or emissions issue",
+            "c": "Low gas",
+            "d": "Headlight malfunction"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "If your temperature warning light turns on, you should:",
+          "options": {
+            "a": "Keep driving normally",
+            "b": "Turn up the heater",
+            "c": "Pull over and turn off the engine",
+            "d": "Ignore it"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "A flashing check engine light usually means:",
+          "options": {
+            "a": "Minor issue",
+            "b": "Urgent problem",
+            "c": "Oil change needed",
+            "d": "Battery is low"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "The oil pressure light means:",
+          "options": {
+            "a": "You need gas",
+            "b": "Oil level or pressure is low",
+            "c": "Tires are low",
+            "d": "Brakes are worn"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "The tire pressure (TPMS) light means:",
+          "options": {
+            "a": "One or more tires are underinflated",
+            "b": "Tires are too new",
+            "c": "Alignment issue",
+            "d": "Brake problem"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "If the battery light turns on while driving, it likely means:",
+          "options": {
+            "a": "Battery is fully charged",
+            "b": "Charging system problem",
+            "c": "AC is broken",
+            "d": "Oil is dirty"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Which light requires immediate action?",
+          "options": {
+            "a": "Low washer fluid",
+            "b": "Temperature warning",
+            "c": "Low fuel",
+            "d": "Seatbelt reminder"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Yellow/orange warning lights usually mean:",
+          "options": {
+            "a": "Immediate danger",
+            "b": "Minor issue or service soon",
+            "c": "Car is broken",
+            "d": "Engine failure"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Red warning lights typically mean:",
+          "options": {
+            "a": "Safe to drive",
+            "b": "Stop immediately",
+            "c": "Low priority",
+            "d": "Cosmetic issue"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "If you don't recognize a dashboard symbol, you should:",
+          "options": {
+            "a": "Ignore it",
+            "b": "Google randomly",
+            "c": "Check the owner's manual",
+            "d": "Keep driving"
+          },
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Tire Pressure",
+      "difficulty": "Easy",
+      "category": "Car Care",
+      "questions": [
+        {
+          "question": "Where do you find the recommended tire PSI?",
+          "options": {
+            "a": "Tire sidewall",
+            "b": "Driver's door sticker",
+            "c": "Google",
+            "d": "Gas station pump"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Tire pressure should be checked when tires are:",
+          "options": {
+            "a": "Hot",
+            "b": "Cold",
+            "c": "Wet",
+            "d": "Dirty"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Underinflated tires can cause:",
+          "options": {
+            "a": "Better gas mileage",
+            "b": "Faster wear",
+            "c": "More speed",
+            "d": "Stronger grip"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Overinflated tires can:",
+          "options": {
+            "a": "Improve comfort",
+            "b": "Reduce traction",
+            "c": "Increase safety",
+            "d": "Lower pressure"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Proper tire pressure improves:",
+          "options": {
+            "a": "Gas mileage",
+            "b": "Safety",
+            "c": "Tire lifespan",
+            "d": "All of the above"
+          },
+          "answer": "d"
+        },
+        {
+          "question": "If recommended PSI is 32 and your tire reads 25, you should:",
+          "options": {
+            "a": "Remove air",
+            "b": "Add air",
+            "c": "Ignore it",
+            "d": "Replace tire"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Low tire pressure can increase risk of:",
+          "options": {
+            "a": "Engine failure",
+            "b": "Blowout",
+            "c": "Radio issues",
+            "d": "AC problems"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "How often should you check tire pressure?",
+          "options": {
+            "a": "Once a year",
+            "b": "Monthly",
+            "c": "Every 5 years",
+            "d": "Never"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "The PSI number on the tire sidewall indicates:",
+          "options": {
+            "a": "Recommended PSI",
+            "b": "Maximum PSI",
+            "c": "Minimum PSI",
+            "d": "Ideal PSI"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Tire pressure changes with:",
+          "options": {
+            "a": "Temperature",
+            "b": "Music volume",
+            "c": "Car color",
+            "d": "Radio station"
+          },
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Engine Oil",
+      "difficulty": "Medium",
+      "category": "Car Care",
+      "questions": [
+        {
+          "question": "Oil lubricates:",
+          "options": {
+            "a": "Tires",
+            "b": "Engine parts",
+            "c": "Brakes",
+            "d": "Steering wheel"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "To check oil level, you use the:",
+          "options": {
+            "a": "Dipstick",
+            "b": "Radiator cap",
+            "c": "Battery",
+            "d": "Gas cap"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "You should check oil when engine is:",
+          "options": {
+            "a": "Running",
+            "b": "Cold or off",
+            "c": "Overheating",
+            "d": "Moving"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Oil below minimum line means:",
+          "options": {
+            "a": "Safe",
+            "b": "Add oil",
+            "c": "Replace engine",
+            "d": "Ignore"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Dark black thick oil may indicate:",
+          "options": {
+            "a": "Fresh oil",
+            "b": "Dirty oil",
+            "c": "Overfilled",
+            "d": "Perfect condition"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Most cars need oil changes every:",
+          "options": {
+            "a": "500 miles",
+            "b": "3,000–7,500 miles",
+            "c": "50,000 miles",
+            "d": "Never"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Synthetic oil generally lasts:",
+          "options": {
+            "a": "Shorter",
+            "b": "Longer",
+            "c": "Same as water",
+            "d": "One week"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Low oil can cause:",
+          "options": {
+            "a": "Engine damage",
+            "b": "Better performance",
+            "c": "Lower cost",
+            "d": "Cooler engine"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "Overfilling oil can:",
+          "options": {
+            "a": "Help engine",
+            "b": "Damage engine",
+            "c": "Improve MPG",
+            "d": "Clean engine"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Oil change neglect can lead to:",
+          "options": {
+            "a": "Minor scratch",
+            "b": "Engine failure",
+            "c": "Cleaner engine",
+            "d": "Better sound"
+          },
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Jump Starting a Car",
+      "difficulty": "Medium",
+      "category": "Car Care",
+      "questions": [
+        {
+          "question": "A clicking sound when turning the key usually means:",
+          "options": {
+            "a": "Dead battery",
+            "b": "Flat tire",
+            "c": "Oil leak",
+            "d": "AC failure"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "First cable to connect:",
+          "options": {
+            "a": "Black to dead battery",
+            "b": "Red to dead battery",
+            "c": "Black to ground",
+            "d": "Any cable"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Last cable to connect:",
+          "options": {
+            "a": "Red to good battery",
+            "b": "Black to ground",
+            "c": "Red to dead battery",
+            "d": "Black to dead battery"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "You should NOT connect black cable to:",
+          "options": {
+            "a": "Metal ground",
+            "b": "Engine block",
+            "c": "Negative terminal of dead battery",
+            "d": "Frame"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "After starting, let car run for:",
+          "options": {
+            "a": "30 seconds",
+            "b": "10–15 minutes",
+            "c": "1 minute",
+            "d": "Turn off immediately"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Reversing cable order can cause:",
+          "options": {
+            "a": "Nothing",
+            "b": "Sparks/damage",
+            "c": "Cleaner battery",
+            "d": "Faster charging"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Both cars should be:",
+          "options": {
+            "a": "Touching",
+            "b": "Off before connecting",
+            "c": "Running",
+            "d": "In drive"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Corroded battery terminals look:",
+          "options": {
+            "a": "Clean",
+            "b": "White/blue buildup",
+            "c": "Shiny",
+            "d": "Wet"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "If car dies again shortly after jump, likely issue is:",
+          "options": {
+            "a": "Alternator problem",
+            "b": "Low gas",
+            "c": "Tire pressure",
+            "d": "AC"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "Safety glasses are recommended because:",
+          "options": {
+            "a": "Batteries can spark",
+            "b": "For style",
+            "c": "For speed",
+            "d": "For warmth"
+          },
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Buying & Maintaining a Used Car",
+      "difficulty": "Hard",
+      "category": "Car Care",
+      "questions": [
+        {
+          "question": "Before buying a used car, you should check:",
+          "options": {
+            "a": "VIN report",
+            "b": "Car color",
+            "c": "Radio brand",
+            "d": "Seat design"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "High mileage usually means:",
+          "options": {
+            "a": "More wear",
+            "b": "New engine",
+            "c": "No maintenance needed",
+            "d": "Better value always"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "Flood damage signs include:",
+          "options": {
+            "a": "Musty smell",
+            "b": "Rust under seats",
+            "c": "Electrical issues",
+            "d": "All of the above"
+          },
+          "answer": "d"
+        },
+        {
+          "question": "Engine knocking is usually:",
+          "options": {
+            "a": "Normal",
+            "b": "Minor",
+            "c": "Serious issue",
+            "d": "Cosmetic"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "Total cost of ownership includes:",
+          "options": {
+            "a": "Insurance",
+            "b": "Registration",
+            "c": "Maintenance",
+            "d": "All of the above"
+          },
+          "answer": "d"
+        },
+        {
+          "question": "Skipping maintenance lowers:",
+          "options": {
+            "a": "Costs long term",
+            "b": "Resale value",
+            "c": "Stress",
+            "d": "Fuel usage"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "A car with full service records is:",
+          "options": {
+            "a": "Riskier",
+            "b": "More trustworthy",
+            "c": "Worth less",
+            "d": "Fake"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Before buying, you should always:",
+          "options": {
+            "a": "Trust seller blindly",
+            "b": "Test drive",
+            "c": "Pay immediately",
+            "d": "Skip inspection"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "A pre-purchase inspection is done by:",
+          "options": {
+            "a": "Random person",
+            "b": "Mechanic",
+            "c": "Neighbor",
+            "d": "Salesman"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Buying beyond your budget can cause:",
+          "options": {
+            "a": "Financial stress",
+            "b": "Freedom",
+            "c": "Higher savings",
+            "d": "Lower insurance"
+          },
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Budgeting & Spending Habits",
+      "difficulty": "Easy",
+      "category": "Finances",
+      "questions": [
+        {
+          "question": "According to the 50/30/20 rule, which category should 50% of your net income go toward?",
+          "options": {
+            "a": "Savings and Investments",
+            "b": "Needs and Essentials",
+            "c": "Wants and Luxury Items",
+            "d": "Debt Repayment"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Which of the following is considered a \"Fixed Expense\"?",
+          "options": {
+            "a": "Dining out at a restaurant",
+            "b": "Buying a new video game",
+            "c": "Monthly Rent",
+            "d": "Weekend travel"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "What is the primary purpose of tracking your expenses?",
+          "options": {
+            "a": "To make sure you never spend any money",
+            "b": "To impress your bank manager",
+            "c": "To identify where your money is going and find waste",
+            "d": "To increase your credit score immediately"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "You buy a $5 coffee every morning before work. In budgeting terms, this is technically a:",
+          "options": {
+            "a": "Want (Discretionary)",
+            "b": "Need (Survival)",
+            "c": "Fixed Expense",
+            "d": "Tax Deduction"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "What does \"Net Income\" mean?",
+          "options": {
+            "a": "The total salary you are promised before taxes",
+            "b": "The amount of money that actually hits your bank account after taxes",
+            "c": "The money you earn from hobbies only",
+            "d": "Your total credit card limit"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "What does the strategy \"Pay Yourself First\" mean?",
+          "options": {
+            "a": "Buying yourself a gift before paying rent",
+            "b": "Paying off your credit card before your car loan",
+            "c": "Asking your boss for an advance",
+            "d": "Setting aside savings from your paycheck before spending on anything else"
+          },
+          "answer": "d"
+        },
+        {
+          "question": "True or False: A gym membership is always considered a \"Need\" because it relates to health.",
+          "options": {
+            "a": "True",
+            "b": "False",
+            "c": "",
+            "d": ""
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Which tool is most commonly used to organize a modern budget?",
+          "options": {
+            "a": "A Checkbook Register",
+            "b": "A Word Document",
+            "c": "A Spreadsheet or App",
+            "d": "A Calendar"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "If your take-home pay is $3,000 a month, how much should you aim to save (20%) according to the 50/30/20 rule?",
+          "options": {
+            "a": "$300",
+            "b": "$600",
+            "c": "$1,000",
+            "d": "$1,500"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "What is \"Lifestyle Creep\"?",
+          "options": {
+            "a": "When your rent increases every year",
+            "b": "When you spend more money as soon as you start earning more money",
+            "c": "When you downgrade your lifestyle to save money",
+            "d": "Moving to a more expensive city"
+          },
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Banking & Emergency Funds",
+      "difficulty": "Easy",
+      "category": "Finances",
+      "questions": [
+        {
+          "question": "What is the main difference between a Checking Account and a Savings Account?",
+          "options": {
+            "a": "Savings accounts come with debit cards for shopping",
+            "b": "Checking accounts pay high interest",
+            "c": "Checking is for daily spending; Savings is for storing money long-term",
+            "d": "There is no difference"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "What does HYSA stand for?",
+          "options": {
+            "a": "High Yearly Spending Allowance",
+            "b": "High-Yield Savings Account",
+            "c": "Home Yield Security Account",
+            "d": "Hourly Yearly Salary Adjustment"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Why is a High-Yield Savings Account (HYSA) usually better than a traditional savings account at a big bank?",
+          "options": {
+            "a": "It allows you to write checks",
+            "b": "It is located in physical bank branches",
+            "c": "It has a much higher interest rate (APY), so your money grows faster",
+            "d": "It never requires a password"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "How much money should generally be in your Emergency Fund?",
+          "options": {
+            "a": "$100",
+            "b": "1 month of income",
+            "c": "3 to 6 months of essential living expenses",
+            "d": "1 year of salary"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "Which of these is a valid reason to use your Emergency Fund?",
+          "options": {
+            "a": "A sudden car repair needed to get to work",
+            "b": "A flash sale on designer shoes",
+            "c": "Paying for a vacation you forgot to budget for",
+            "d": "Buying birthday gifts"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "What is \"Overdraft Protection\"?",
+          "options": {
+            "a": "A service that stops you from spending money",
+            "b": "A bank service that covers transactions if your balance is zero (often for a fee)",
+            "c": "Insurance against bank robbery",
+            "d": "A bonus paid by the bank"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "What is \"Compound Interest\"?",
+          "options": {
+            "a": "Interest calculated only on the money you deposited",
+            "b": "A fee the bank charges you for saving",
+            "c": "Interest that decreases over time",
+            "d": "Interest calculated on your principal plus the interest you've already earned"
+          },
+          "answer": "d"
+        },
+        {
+          "question": "True or False: You should keep your Emergency Fund in the same checking account linked to your debit card.",
+          "options": {
+            "a": "True",
+            "b": "False",
+            "c": "",
+            "d": ""
+          },
+          "answer": "b"
+        },
+        {
+          "question": "If a bank offers an APY of 4.0%, and you deposit $100, how much will you have after one year (assuming no other deposits)?",
+          "options": {
+            "a": "$140",
+            "b": "$104",
+            "c": "$100.40",
+            "d": "$400"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Which institution insures your bank deposits up to $250,000?",
+          "options": {
+            "a": "IRS (Internal Revenue Service)",
+            "b": "FBI (Federal Bureau of Investigation)",
+            "c": "CIA (Central Intelligence Agency)",
+            "d": "FDIC (Federal Deposit Insurance Corporation)"
+          },
+          "answer": "d"
+        }
+      ]
+    },
+    {
+      "title": "Credit & Debt Management",
+      "difficulty": "Medium",
+      "category": "Finances",
+      "questions": [
+        {
+          "question": "Which factor has the biggest impact (35%) on your FICO credit score?",
+          "options": {
+            "a": "Length of credit history",
+            "b": "New credit inquiries",
+            "c": "Payment History (Paying on time)",
+            "d": "Credit Mix"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "What is the \"Debt Snowball\" method?",
+          "options": {
+            "a": "Paying off the loan with the highest interest rate first",
+            "b": "Paying off the loan with the lowest balance first to build momentum",
+            "c": "Consolidating all debt into one big loan",
+            "d": "Paying only the minimums on everything"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "What is the \"Debt Avalanche\" method?",
+          "options": {
+            "a": "Paying off the loan with the highest interest rate first",
+            "b": "Paying off the smallest loan first",
+            "c": "Asking your parents to pay your debt",
+            "d": "Filing for bankruptcy"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "To maintain a good credit score, you should generally keep your Credit Utilization Ratio below:",
+          "options": {
+            "a": "100%",
+            "b": "75%",
+            "c": "50%",
+            "d": "30%"
+          },
+          "answer": "d"
+        },
+        {
+          "question": "You have an old credit card you haven't used in years. Why might closing it hurt your credit score?",
+          "options": {
+            "a": "It angers the bank",
+            "b": "It reduces your \"Length of Credit History\" and your total available credit limit",
+            "c": "It increases your interest rate on other cards",
+            "d": "Closing cards is illegal"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "What is a \"Hard Inquiry\" on your credit report?",
+          "options": {
+            "a": "When a lender checks your credit to approve a new loan or card",
+            "b": "When you check your own score",
+            "c": "When you pay off a loan",
+            "d": "When you get a raise at work"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "Which of these is considered \"Revolving Credit\"?",
+          "options": {
+            "a": "Student Loan",
+            "b": "Mortgage",
+            "c": "Credit Card",
+            "d": "Auto Loan"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "If you carry a balance on your credit card from month to month, what happens?",
+          "options": {
+            "a": "Your credit score automatically goes to 850",
+            "b": "The bank forgives the debt",
+            "c": "You are charged interest on the remaining balance",
+            "d": "You get cash back rewards"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "What is a \"Secured Credit Card\"?",
+          "options": {
+            "a": "A card locked in a safe",
+            "b": "A card that requires a cash deposit upfront, used to build credit",
+            "c": "A card with a $1 million limit",
+            "d": "A card only for government employees"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Approximately what FICO score is considered \"Good\" to \"Very Good\"?",
+          "options": {
+            "a": "300-500",
+            "b": "500-600",
+            "c": "670-740",
+            "d": "1000+"
+          },
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Taxes & Income",
+      "difficulty": "Medium",
+      "category": "Finances",
+      "questions": [
+        {
+          "question": "What is the difference between a Tax Deduction and a Tax Credit?",
+          "options": {
+            "a": "A Credit lowers your taxable income; a Deduction lowers your tax bill dollar-for-dollar",
+            "b": "A Deduction lowers your taxable income; a Credit lowers your tax bill dollar-for-dollar",
+            "c": "They are the same thing",
+            "d": "A Deduction is for the rich, a Credit is for the poor"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "If you are in the 22% tax bracket, does all of your income get taxed at 22%?",
+          "options": {
+            "a": "Yes, every dollar is taxed at 22%",
+            "b": "No, only your bonuses are taxed at 22%",
+            "c": "It depends on your age",
+            "d": "No, only the income above the threshold for that bracket is taxed at 22%"
+          },
+          "answer": "d"
+        },
+        {
+          "question": "What is the form you receive from your employer at the end of the year showing your total salary and taxes withheld?",
+          "options": {
+            "a": "W-2",
+            "b": "1040",
+            "c": "W-4",
+            "d": "1099"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "If you are a freelancer or \"gig worker\" (like Uber or DoorDash), which form will you likely receive to report your income?",
+          "options": {
+            "a": "W-2",
+            "b": "I-9",
+            "c": "1099-NEC or 1099-K",
+            "d": "W-4"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "For the 2025 tax year, the Standard Deduction for a single filer is approximately:",
+          "options": {
+            "a": "$5,000",
+            "b": "$15,000 - $15,750",
+            "c": "$25,000",
+            "d": "$50,000"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "When you start a new job, you fill out a W-4 form. What is its purpose?",
+          "options": {
+            "a": "To tell your employer how much tax to withhold from your paycheck",
+            "b": "To register for a 401k",
+            "c": "To apply for health insurance",
+            "d": "To background check you"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "Which date is the typical deadline for filing federal income taxes in the US?",
+          "options": {
+            "a": "January 1st",
+            "b": "April 15th",
+            "c": "July 4th",
+            "d": "December 31st"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "True or False: If you get a tax refund, it means you paid too much in taxes during the year and the government is paying you back.",
+          "options": {
+            "a": "True",
+            "b": "False",
+            "c": "",
+            "d": ""
+          },
+          "answer": "a"
+        },
+        {
+          "question": "In some states (like Idaho), you can get a \"Grocery Credit\" refund...",
+          "options": {
+            "a": "Only if you are a millionaire",
+            "b": "Only if you own a farm",
+            "c": "Even if you don't earn enough money to file taxes",
+            "d": "Only if you eat vegetables"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "Which of these is usually withheld from your paycheck automatically (FICA taxes)?",
+          "options": {
+            "a": "Rent and Utilities",
+            "b": "Social Security and Medicare",
+            "c": "Credit Card payments",
+            "d": "Student Loan payments"
+          },
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Investing & Future Planning",
+      "difficulty": "Hard",
+      "category": "Finances",
+      "questions": [
+        {
+          "question": "Employer 401(k) Matching is best described as:",
+          "options": {
+            "a": "A scam to keep your money",
+            "b": "A high-risk stock trade",
+            "c": "A guaranteed 100% return on your investment (Free Money)",
+            "d": "A fee you pay to work there"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "What is the primary tax benefit of a Roth IRA?",
+          "options": {
+            "a": "You get a tax deduction now, but pay taxes when you withdraw",
+            "b": "You never pay taxes on it ever",
+            "c": "You pay taxes now, but all growth and withdrawals in retirement are 100% tax-free",
+            "d": "The government matches your contribution"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "Which investment vehicle typically trades like a stock throughout the day and has low expense ratios?",
+          "options": {
+            "a": "Mutual Fund",
+            "b": "CD (Certificate of Deposit)",
+            "c": "Bond",
+            "d": "ETF (Exchange Traded Fund)"
+          },
+          "answer": "d"
+        },
+        {
+          "question": "For 2025, what is the annual contribution limit for a Roth IRA (for those under 50)?",
+          "options": {
+            "a": "$6,000",
+            "b": "$7,000",
+            "c": "$23,500",
+            "d": "$100,000"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "What is an \"Index Fund\"?",
+          "options": {
+            "a": "A fund that passively tracks a market list (like the S&P 500)",
+            "b": "A fund managed by a person who tries to pick winning stocks",
+            "c": "A fund that only invests in tech companies",
+            "d": "A savings account"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "If you withdraw money from a traditional 401(k) before age 59½, what usually happens?",
+          "options": {
+            "a": "Nothing",
+            "b": "You get a bonus",
+            "c": "You pay income tax PLUS a 10% penalty",
+            "d": "You lose all the money"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "What is the \"Rule of 72\"?",
+          "options": {
+            "a": "A math trick to estimate how many years it takes for your investment to double",
+            "b": "A rule that you must retire at age 72",
+            "c": "A tax law regarding 72 types of income",
+            "d": "You should save 72% of your income"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "Why is \"Time in the Market\" generally better than \"Timing the Market\"?",
+          "options": {
+            "a": "Because you can predict the future if you wait long enough",
+            "b": "Because stocks only go up on Tuesdays",
+            "c": "Because compound interest needs time to work exponentially",
+            "d": "It's not, timing is better"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "Which of these has historically provided the highest return over long periods (20+ years)?",
+          "options": {
+            "a": "Cash under a mattress",
+            "b": "The Stock Market (S&P 500)",
+            "c": "Gold",
+            "d": "Savings Accounts"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "What is a \"Target Date Fund\"?",
+          "options": {
+            "a": "A fund that helps you save for a wedding",
+            "b": "An investment fund that automatically becomes safer as you get closer to retirement",
+            "c": "A fund that guarantees you retire on a specific date",
+            "d": "A calendar app"
+          },
+          "answer": "b"
+        }
+      ]
     }
   ]
 }

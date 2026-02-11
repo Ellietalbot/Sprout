@@ -3,6 +3,7 @@
     {
       "title": "Cleaning and Organizing",
       "difficulty": "Easy → Hard",
+      "category": "Housekeeping",
       "questions": [
         {
           "question": "Which surface should you clean first in a kitchen?",
@@ -25,7 +26,7 @@
           "answer": "b"
         },
         {
-          "question": "When organizing a drawer, what’s a good first step?",
+          "question": "When organizing a drawer, what's a good first step?",
           "options": {
             "a": "Put everything back randomly",
             "b": "Take everything out and sort items",
@@ -75,7 +76,7 @@
           "answer": "b"
         },
         {
-          "question": "A “caddy” in cleaning refers to:",
+          "question": "A 'caddy' in cleaning refers to:",
           "options": {
             "a": "A type of vacuum",
             "b": "A container for cleaning supplies",
@@ -109,6 +110,7 @@
     {
       "title": "Laundry Care",
       "difficulty": "Easy → Hard",
+      "category": "Housekeeping",
       "questions": [
         {
           "question": "Which symbol indicates machine wash on a clothing label?",
@@ -125,7 +127,7 @@
           "options": {
             "a": "To find money",
             "b": "To avoid washing small items that can damage the machine",
-            "c": "To see what’s inside",
+            "c": "To see what's inside",
             "d": "To make laundry smell better"
           },
           "answer": "b"
@@ -181,7 +183,7 @@
           "answer": "b"
         },
         {
-          "question": "What does the “hand wash only” label indicate?",
+          "question": "What does the 'hand wash only' label indicate?",
           "options": {
             "a": "Machine wash is okay",
             "b": "Use only hands, no machines",
@@ -215,6 +217,7 @@
     {
       "title": "Kitchen Hygiene",
       "difficulty": "Easy → Hard",
+      "category": "Housekeeping",
       "questions": [
         {
           "question": "Which utensil should never be used on a nonstick pan?",
@@ -267,7 +270,7 @@
           "answer": "a"
         },
         {
-          "question": "Why shouldn’t you mix cleaning chemicals like bleach and ammonia?",
+          "question": "Why shouldn't you mix cleaning chemicals like bleach and ammonia?",
           "options": {
             "a": "It creates bubbles",
             "b": "It can release toxic gases",
@@ -315,6 +318,541 @@
             "d": "Store all food together"
           },
           "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "What Is Time Management?",
+      "difficulty": "Easy",
+      "category": "Time Management",
+      "questions": [
+        {
+          "question": "What does \"time management\" mean?",
+          "options": {
+            "a": "Doing everything at once",
+            "b": "Planning how to use your time effectively",
+            "c": "Working nonstop",
+            "d": "Avoiding responsibilities"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Which is an example of good time management?",
+          "options": {
+            "a": "Ignoring deadlines",
+            "b": "Doing tasks randomly",
+            "c": "Making a to-do list",
+            "d": "Waiting until the last minute"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "Why is time management important?",
+          "options": {
+            "a": "It makes time go faster",
+            "b": "It reduces stress and missed deadlines",
+            "c": "It eliminates work",
+            "d": "It gives you more hours in a day"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Which tool helps you remember tasks?",
+          "options": {
+            "a": "A calendar",
+            "b": "A video game",
+            "c": "A TV show",
+            "d": "A random note in your head"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "What happens when time is poorly managed?",
+          "options": {
+            "a": "More free time",
+            "b": "Less stress",
+            "c": "Missed deadlines and stress",
+            "d": "Better sleep"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "Which task should usually be done first?",
+          "options": {
+            "a": "The easiest",
+            "b": "The most urgent or important",
+            "c": "The most fun",
+            "d": "The longest"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Time management helps you balance:",
+          "options": {
+            "a": "Sleep, work, and free time",
+            "b": "Only work",
+            "c": "Only school",
+            "d": "Only fun"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "Which is a daily responsibility for many adults?",
+          "options": {
+            "a": "Paying bills",
+            "b": "Going to work or school",
+            "c": "Household chores",
+            "d": "All of the above"
+          },
+          "answer": "d"
+        },
+        {
+          "question": "What is a \"deadline\"?",
+          "options": {
+            "a": "A suggestion",
+            "b": "The latest time a task must be completed",
+            "c": "A reward",
+            "d": "A break"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Good time management mostly depends on:",
+          "options": {
+            "a": "Luck",
+            "b": "Other people",
+            "c": "Your choices and planning",
+            "d": "Technology alone"
+          },
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Planning Your Day",
+      "difficulty": "Easy",
+      "category": "Time Management",
+      "questions": [
+        {
+          "question": "What is a to-do list used for?",
+          "options": {
+            "a": "Decoration",
+            "b": "Tracking completed tasks",
+            "c": "Planning what needs to be done",
+            "d": "Entertainment"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "When should you make a plan for your day?",
+          "options": {
+            "a": "After the day ends",
+            "b": "When you feel stressed",
+            "c": "At the start of the day or the night before",
+            "d": "Never"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "Which task should be written on a daily plan?",
+          "options": {
+            "a": "Guessing what might happen",
+            "b": "Required tasks and appointments",
+            "c": "Only fun activities",
+            "d": "Nothing important"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "What helps prevent forgetting appointments?",
+          "options": {
+            "a": "Memory alone",
+            "b": "A calendar reminder",
+            "c": "Waiting",
+            "d": "Stress"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Which is an example of a routine?",
+          "options": {
+            "a": "Random tasks",
+            "b": "Doing things whenever",
+            "c": "A repeated daily habit like morning prep",
+            "d": "Avoiding schedules"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "How long should a daily plan be?",
+          "options": {
+            "a": "Extremely detailed",
+            "b": "Unrealistic",
+            "c": "Reasonable and achievable",
+            "d": "Empty"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "What is a benefit of planning your day?",
+          "options": {
+            "a": "Less flexibility",
+            "b": "More stress",
+            "c": "Better focus and productivity",
+            "d": "Less free time"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "Which tool is best for tracking deadlines?",
+          "options": {
+            "a": "Alarm clock",
+            "b": "Calendar app or planner",
+            "c": "Calculator",
+            "d": "Notes app only"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "If a task takes 30 minutes, what should you do?",
+          "options": {
+            "a": "Ignore it",
+            "b": "Guess the time",
+            "c": "Schedule about 30 minutes for it",
+            "d": "Schedule 5 minutes"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "Planning helps you avoid:",
+          "options": {
+            "a": "Breaks",
+            "b": "Fun",
+            "c": "Overcommitting your time",
+            "d": "Goals"
+          },
+          "answer": "c"
+        }
+      ]
+    },
+    {
+      "title": "Priorities & Deadlines",
+      "difficulty": "Medium",
+      "category": "Time Management",
+      "questions": [
+        {
+          "question": "What does it mean to \"prioritize\"?",
+          "options": {
+            "a": "Do everything",
+            "b": "Choose what matters most first",
+            "c": "Avoid tasks",
+            "d": "Work slower"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Which task should usually come first?",
+          "options": {
+            "a": "Due next week",
+            "b": "Due today and important",
+            "c": "Optional",
+            "d": "Fun"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "\"Urgent\" tasks are:",
+          "options": {
+            "a": "Optional",
+            "b": "Due soon",
+            "c": "Easy",
+            "d": "Fun"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "\"Important\" tasks are:",
+          "options": {
+            "a": "Stressful",
+            "b": "Long",
+            "c": "Necessary for goals or responsibilities",
+            "d": "Quick"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "If two tasks conflict, what should you do?",
+          "options": {
+            "a": "Ignore both",
+            "b": "Choose the more urgent or important one",
+            "c": "Panic",
+            "d": "Do neither"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "What happens if you ignore priorities?",
+          "options": {
+            "a": "More productivity",
+            "b": "Missed deadlines and stress",
+            "c": "Better results",
+            "d": "More free time"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Which is a high-priority task?",
+          "options": {
+            "a": "Watching a show",
+            "b": "Homework due tonight",
+            "c": "Scrolling social media",
+            "d": "Cleaning for fun"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "What is a realistic workload?",
+          "options": {
+            "a": "Filling every minute",
+            "b": "Planning more than possible",
+            "c": "Planning what you can reasonably complete",
+            "d": "Doing nothing"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "Which tool helps with prioritization?",
+          "options": {
+            "a": "Random choice",
+            "b": "A priority list or ranking",
+            "c": "Ignoring deadlines",
+            "d": "Multitasking"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "A good priority system helps you:",
+          "options": {
+            "a": "Avoid work",
+            "b": "Meet deadlines and reduce stress",
+            "c": "Waste time",
+            "d": "Be perfect"
+          },
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Time Wasters & Focus",
+      "difficulty": "Medium",
+      "category": "Time Management",
+      "questions": [
+        {
+          "question": "What is a \"time waster\"?",
+          "options": {
+            "a": "A break",
+            "b": "Something that unintentionally consumes time",
+            "c": "A job",
+            "d": "A goal"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Which is a common time waster?",
+          "options": {
+            "a": "Planning",
+            "b": "Social media scrolling",
+            "c": "Studying",
+            "d": "Sleeping"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Multitasking often leads to:",
+          "options": {
+            "a": "Better focus",
+            "b": "Faster completion",
+            "c": "More mistakes and slower work",
+            "d": "Less stress"
+          },
+          "answer": "c"
+        },
+        {
+          "question": "What helps improve focus?",
+          "options": {
+            "a": "Notifications on",
+            "b": "Quiet environment",
+            "c": "Constant interruptions",
+            "d": "Doing everything at once"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "What should you do when distracted?",
+          "options": {
+            "a": "Quit the task",
+            "b": "Refocus and remove distractions",
+            "c": "Switch tasks endlessly",
+            "d": "Ignore it"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "A focused work session should be:",
+          "options": {
+            "a": "Endless",
+            "b": "Short with breaks (like 25–50 minutes)",
+            "c": "Random",
+            "d": "Only at night"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Which is a healthy break?",
+          "options": {
+            "a": "Endless scrolling",
+            "b": "Stretching or walking briefly",
+            "c": "Avoiding work forever",
+            "d": "Watching full episodes"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "What happens when distractions increase?",
+          "options": {
+            "a": "Productivity improves",
+            "b": "Tasks take longer",
+            "c": "Focus increases",
+            "d": "Stress disappears"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Turning off notifications helps because it:",
+          "options": {
+            "a": "Makes you bored",
+            "b": "Reduces interruptions",
+            "c": "Wastes time",
+            "d": "Cancels tasks"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Managing focus helps you:",
+          "options": {
+            "a": "Work less",
+            "b": "Work more efficiently",
+            "c": "Avoid responsibility",
+            "d": "Skip deadlines"
+          },
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Balancing Life, Work, and Energy",
+      "difficulty": "Hard",
+      "category": "Time Management",
+      "questions": [
+        {
+          "question": "Why is energy management important?",
+          "options": {
+            "a": "Time doesn't matter",
+            "b": "Energy affects how well you work",
+            "c": "Sleep is optional",
+            "d": "Work should be nonstop"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "When should you schedule hard tasks?",
+          "options": {
+            "a": "When tired",
+            "b": "During high-energy times",
+            "c": "Late at night only",
+            "d": "Randomly"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "What happens if you over-schedule yourself?",
+          "options": {
+            "a": "Higher quality work",
+            "b": "Burnout and stress",
+            "c": "More free time",
+            "d": "Better sleep"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "A balanced schedule includes:",
+          "options": {
+            "a": "Only work",
+            "b": "Work, rest, and personal time",
+            "c": "No breaks",
+            "d": "No flexibility"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "What is burnout?",
+          "options": {
+            "a": "Motivation boost",
+            "b": "Long-term exhaustion from stress",
+            "c": "Good productivity",
+            "d": "Free time"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Which is a sign your schedule needs adjustment?",
+          "options": {
+            "a": "Feeling calm",
+            "b": "Constant exhaustion and missed tasks",
+            "c": "Having breaks",
+            "d": "Feeling balanced"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Why is flexibility important in time management?",
+          "options": {
+            "a": "Life is unpredictable",
+            "b": "Plans never change",
+            "c": "It reduces productivity",
+            "d": "It avoids responsibility"
+          },
+          "answer": "a"
+        },
+        {
+          "question": "What should you do when plans change?",
+          "options": {
+            "a": "Quit",
+            "b": "Adjust your schedule realistically",
+            "c": "Panic",
+            "d": "Ignore everything"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Long-term time management helps with:",
+          "options": {
+            "a": "Short-term stress only",
+            "b": "Life balance and goal achievement",
+            "c": "Avoiding work",
+            "d": "Eliminating effort"
+          },
+          "answer": "b"
+        },
+        {
+          "question": "The ultimate goal of time management is to:",
+          "options": {
+            "a": "Be busy",
+            "b": "Control every minute",
+            "c": "Live a balanced, productive life",
+            "d": "Work nonstop"
+          },
+          "answer": "c"
         }
       ]
     }

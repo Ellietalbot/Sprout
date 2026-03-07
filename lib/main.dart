@@ -8,6 +8,7 @@ import 'pages/quiz_page.dart';
 import 'pages/completed_page.dart';
 import 'pages/car_maintenance_lesson.dart';
 
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(

@@ -5,6 +5,8 @@ import '../widgets/skill_card.dart';
 import 'quiz_page.dart';
 import '../pages/completed_page.dart';
 import '../models/lesson_item.dart';
+import 'dart:convert';
+import 'package:flutter/services.dart';
 
 // Home page with NavigationRail
 class MyHomePage extends StatefulWidget {
@@ -59,8 +61,29 @@ class _MyHomePageState extends State<MyHomePage> {
 
 // -------- Pages --------
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
   const HomePage({super.key});
+
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  List<dynamic> lessons = [];
+
+  @override
+  void initState() {
+    super.initState();
+    _loadLessons();
+  }
+
+  Future<void> _loadLessons() async {
+    final String response = await rootBundle.loadString('assets/lessons.json');
+    final data = json.decode(response);
+    setState(() {
+      lessons = data['lessons'];
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -209,6 +232,21 @@ class HomePage extends StatelessWidget {
                   routeName: '/car-maintenance',
                 ),
               ],
+            ),
+                        CategorySection(
+              title: "Cleaning",
+              titleColor: Colors.pink,
+              lessons: lessons
+              .where((l) => l['category'] == 'Housekeeping')
+                    .map((l) => LessonItem(
+                          title: l['title'],
+                          description: "Learn about ${l['title'].toLowerCase()}.",
+                          difficulty: l['difficulty'],
+                          duration: "${(l['questions'] as List).length} questions",
+                          routeName: '/housekeeping',
+                          questions: l['questions'],
+                        ))
+                    .toList(),
             ),
 
             const SizedBox(height: 40),

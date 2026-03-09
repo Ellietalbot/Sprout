@@ -1,8 +1,462 @@
 {
   "lessons": [
     {
+      "title": "Bathroom Care",
+      "difficulty": "Easy",
+      "category": "Housekeeping",
+      "questions": [
+        {
+          "question": "Why should you turn on the bathroom fan or open a window after a shower?",
+          "options": {
+            "a": {
+              "emoji": "🌬️",
+              "text": "To remove moisture and prevent mold"
+            },
+            "b": {
+              "emoji": "❄️",
+              "text": "To cool the bathroom down"
+            },
+            "c": {
+              "emoji": "🔊",
+              "text": "To reduce noise"
+            },
+            "d": {
+              "emoji": "💡",
+              "text": "To make the lights brighter"
+            }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "What is the best tool for cleaning a toilet bowl?",
+          "options": {
+            "a": {
+              "emoji": "🧽",
+              "text": "Kitchen sponge"
+            },
+            "b": {
+              "emoji": "🚽",
+              "text": "Toilet brush"
+            },
+            "c": {
+              "emoji": "🪣",
+              "text": "Bucket"
+            },
+            "d": {
+              "emoji": "🧻",
+              "text": "Toilet paper"
+            }
+          },
+          "answer": "b"
+        },
+        {
+          "question": "How often should you typically replace or wash bathroom towels?",
+          "options": {
+            "a": {
+              "emoji": "📅",
+              "text": "Every 3–4 uses"
+            },
+            "b": {
+              "emoji": "📆",
+              "text": "Once every two months"
+            },
+            "c": {
+              "emoji": "🗓️",
+              "text": "Once a year"
+            },
+            "d": {
+              "emoji": "🙅",
+              "text": "Only when they smell bad"
+            }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "Which cleaner is commonly used to remove soap scum from showers?",
+          "options": {
+            "a": {
+              "emoji": "🧴",
+              "text": "Bathroom surface cleaner"
+            },
+            "b": {
+              "emoji": "🍽️",
+              "text": "Dish soap only"
+            },
+            "c": {
+              "emoji": "🥤",
+              "text": "Soda"
+            },
+            "d": {
+              "emoji": "🧂",
+              "text": "Salt"
+            }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "Why is it important to regularly clean the bathroom sink?",
+          "options": {
+            "a": {
+              "emoji": "🦠",
+              "text": "To prevent bacteria buildup"
+            },
+            "b": {
+              "emoji": "✨",
+              "text": "To make water flow faster"
+            },
+            "c": {
+              "emoji": "💰",
+              "text": "To save money"
+            },
+            "d": {
+              "emoji": "🔔",
+              "text": "To make it quieter"
+            }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "What should you use to clean bathroom mirrors without streaks?",
+          "options": {
+            "a": {
+              "emoji": "🪟",
+              "text": "Glass cleaner and a microfiber cloth"
+            },
+            "b": {
+              "emoji": "🧻",
+              "text": "Toilet paper"
+            },
+            "c": {
+              "emoji": "🪣",
+              "text": "Plain water only"
+            },
+            "d": {
+              "emoji": "🧽",
+              "text": "Rough sponge"
+            }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "Why should bath mats be washed regularly?",
+          "options": {
+            "a": {
+              "emoji": "💧",
+              "text": "They collect moisture and bacteria"
+            },
+            "b": {
+              "emoji": "🎨",
+              "text": "To keep the color bright"
+            },
+            "c": {
+              "emoji": "⚖️",
+              "text": "They get heavier"
+            },
+            "d": {
+              "emoji": "🔊",
+              "text": "They make noise"
+            }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "What is a common sign that your bathroom may have mold?",
+          "options": {
+            "a": {
+              "emoji": "⚫",
+              "text": "Black or green spots on walls or grout"
+            },
+            "b": {
+              "emoji": "💡",
+              "text": "Bright lights"
+            },
+            "c": {
+              "emoji": "🌡️",
+              "text": "Warm water"
+            },
+            "d": {
+              "emoji": "🧼",
+              "text": "Too many soaps"
+            }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "Why should you avoid mixing different cleaning chemicals in the bathroom?",
+          "options": {
+            "a": {
+              "emoji": "⚠️",
+              "text": "They can create dangerous fumes"
+            },
+            "b": {
+              "emoji": "💧",
+              "text": "They make too many bubbles"
+            },
+            "c": {
+              "emoji": "🧽",
+              "text": "They clean too fast"
+            },
+            "d": {
+              "emoji": "🪞",
+              "text": "They damage mirrors only"
+            }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "What is the best way to prevent soap scum buildup in the shower?",
+          "options": {
+            "a": {
+              "emoji": "🚿",
+              "text": "Rinse and wipe surfaces after showers"
+            },
+            "b": {
+              "emoji": "⏱️",
+              "text": "Take shorter showers"
+            },
+            "c": {
+              "emoji": "🧴",
+              "text": "Use more shampoo"
+            },
+            "d": {
+              "emoji": "🪣",
+              "text": "Fill the tub with water"
+            }
+          },
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Trash & Recycling",
+      "difficulty": "Easy",
+      "category": "Housekeeping",
+      "questions": [
+        {
+          "question": "Why should food containers be rinsed before recycling?",
+          "options": {
+            "a": {
+              "emoji": "🧼",
+              "text": "To prevent contamination of other recyclables"
+            },
+            "b": {
+              "emoji": "💧",
+              "text": "To make them heavier"
+            },
+            "c": {
+              "emoji": "🌎",
+              "text": "To help them decompose faster"
+            },
+            "d": {
+              "emoji": "🗑️",
+              "text": "It doesn't matter"
+            }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "Which item is most commonly recyclable?",
+          "options": {
+            "a": {
+              "emoji": "🍌",
+              "text": "Banana peel"
+            },
+            "b": {
+              "emoji": "🥤",
+              "text": "Plastic water bottle"
+            },
+            "c": {
+              "emoji": "🍕",
+              "text": "Greasy pizza box"
+            },
+            "d": {
+              "emoji": "🧻",
+              "text": "Used paper towel"
+            }
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Why should trash bags be tied before taking them out?",
+          "options": {
+            "a": {
+              "emoji": "🌬️",
+              "text": "To make them lighter"
+            },
+            "b": {
+              "emoji": "🚫",
+              "text": "To prevent spills and smells"
+            },
+            "c": {
+              "emoji": "⚖️",
+              "text": "To balance the bag"
+            },
+            "d": {
+              "emoji": "👀",
+              "text": "To see inside"
+            }
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Which item should NOT go in most recycling bins?",
+          "options": {
+            "a": {
+              "emoji": "📰",
+              "text": "Newspaper"
+            },
+            "b": {
+              "emoji": "🥫",
+              "text": "Aluminum can"
+            },
+            "c": {
+              "emoji": "🍕",
+              "text": "Greasy pizza box"
+            },
+            "d": {
+              "emoji": "📦",
+              "text": "Cardboard box"
+            }
+          },
+          "answer": "c"
+        },
+        {
+          "question": "How often should indoor trash typically be taken out?",
+          "options": {
+            "a": {
+              "emoji": "📅",
+              "text": "When the bag is full or smells"
+            },
+            "b": {
+              "emoji": "📆",
+              "text": "Once every two months"
+            },
+            "c": {
+              "emoji": "🗓️",
+              "text": "Only on holidays"
+            },
+            "d": {
+              "emoji": "🙅",
+              "text": "Never"
+            }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "Which of these helps reduce household trash?",
+          "options": {
+            "a": {
+              "emoji": "♻️",
+              "text": "Reusing containers"
+            },
+            "b": {
+              "emoji": "🛍️",
+              "text": "Using more plastic bags"
+            },
+            "c": {
+              "emoji": "🍽️",
+              "text": "Throwing away leftovers"
+            },
+            "d": {
+              "emoji": "📦",
+              "text": "Buying extra packaging"
+            }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "Why should trash cans be cleaned occasionally?",
+          "options": {
+            "a": {
+              "emoji": "🦠",
+              "text": "To remove bacteria and odors"
+            },
+            "b": {
+              "emoji": "💡",
+              "text": "To make them lighter"
+            },
+            "c": {
+              "emoji": "🔊",
+              "text": "To make them quieter"
+            },
+            "d": {
+              "emoji": "📦",
+              "text": "To fit more trash"
+            }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "What should you do with broken glass before throwing it away?",
+          "options": {
+            "a": {
+              "emoji": "🧻",
+              "text": "Wrap it in paper or cardboard"
+            },
+            "b": {
+              "emoji": "🗑️",
+              "text": "Throw it in loose"
+            },
+            "c": {
+              "emoji": "💧",
+              "text": "Wash it first"
+            },
+            "d": {
+              "emoji": "🧴",
+              "text": "Put it in plastic bottles"
+            }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "What is composting?",
+          "options": {
+            "a": {
+              "emoji": "🌱",
+              "text": "Turning food scraps into soil"
+            },
+            "b": {
+              "emoji": "🗑️",
+              "text": "Burning trash"
+            },
+            "c": {
+              "emoji": "📦",
+              "text": "Packing garbage"
+            },
+            "d": {
+              "emoji": "💧",
+              "text": "Washing trash"
+            }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "Which item is often compostable?",
+          "options": {
+            "a": {
+              "emoji": "🍎",
+              "text": "Apple core"
+            },
+            "b": {
+              "emoji": "🥤",
+              "text": "Plastic straw"
+            },
+            "c": {
+              "emoji": "🔋",
+              "text": "Battery"
+            },
+            "d": {
+              "emoji": "🧴",
+              "text": "Shampoo bottle"
+            }
+          },
+          "answer": "a"
+        }
+      ]
+    },
+    {
       "title": "Cleaning and Organizing",
-      "difficulty": "Easy → Hard",
+      "difficulty": "Hard",
       "category": "Housekeeping",
       "questions": [
         {
@@ -229,7 +683,7 @@
     },
     {
       "title": "Laundry Care",
-      "difficulty": "Easy → Hard",
+      "difficulty": "Easy",
       "category": "Housekeeping",
       "questions": [
         {
@@ -456,7 +910,7 @@
     },
     {
       "title": "Kitchen Hygiene",
-      "difficulty": "Easy → Hard",
+      "difficulty": "Medium",
       "category": "Housekeeping",
       "questions": [
         {

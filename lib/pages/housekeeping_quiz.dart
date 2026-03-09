@@ -36,7 +36,7 @@ class _HousekeepingQuizState extends State<HousekeepingQuiz> {
         selectedAnswer = null;
         hasChecked = false;
       } else {
-        // Quiz finished
+
         Navigator.pop(context);
       }
     });
@@ -65,7 +65,7 @@ class _HousekeepingQuizState extends State<HousekeepingQuiz> {
           padding: const EdgeInsets.all(20.0),
           child: Column(
             children: [
-              // Progress Bar
+
               Container(
                 height: 20,
                 width: double.infinity,
@@ -94,7 +94,7 @@ class _HousekeepingQuizState extends State<HousekeepingQuiz> {
 
               const SizedBox(height: 40),
 
-              // Question Text
+
               Text(
                 question['question'],
                 style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
@@ -103,7 +103,7 @@ class _HousekeepingQuizState extends State<HousekeepingQuiz> {
 
               const SizedBox(height: 20),
 
-              // Options Grid
+
               Expanded(
                 child: Center(
                   child: GridView.count(
@@ -143,7 +143,7 @@ class _HousekeepingQuizState extends State<HousekeepingQuiz> {
 
               const SizedBox(height: 16),
 
-              // Check / Next Button
+
               SizedBox(
                 width: double.infinity,
                 height: 56,

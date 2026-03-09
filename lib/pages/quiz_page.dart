@@ -3,11 +3,11 @@ import '../widgets/option_card.dart';
 import '../models/lesson_item.dart';
 
 class QuizPage extends StatefulWidget {
-  final LessonItem lesson; // 👈 added
+  final LessonItem lesson; 
 
   const QuizPage({
     super.key,
-    required this.lesson, // 👈 added
+    required this.lesson, 
   });
 
   @override

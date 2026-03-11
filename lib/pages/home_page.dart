@@ -185,22 +185,6 @@ class _HomePageState extends State<HomePage> {
             ),
 
             CategorySection(
-              title: "Budgeting",
-              titleColor: Colors.teal,
-              lessons: lessons
-                  .where((l) => l['category'] == 'Budgeting')
-                  .map((l) => LessonItem(
-                        title: l['title'],
-                        description: "Learn about ${l['title'].toLowerCase()}.",
-                        difficulty: l['difficulty'],
-                        duration: "${(l['questions'] as List).length} questions",
-                        routeName: '/budgeting',
-                        questions: l['questions'],
-                      ))
-                  .toList(),
-            ),
-
-            CategorySection(
               title: "Car Care",
               titleColor: Colors.blue,
               lessons: lessons

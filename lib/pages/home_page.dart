@@ -233,7 +233,7 @@ class _HomePageState extends State<HomePage> {
                 ),
               ],
             ),
-                        CategorySection(
+            CategorySection(
               title: "Cleaning",
               titleColor: Colors.pink,
               lessons: lessons

@@ -4539,6 +4539,277 @@
           "answer": "b"
         }
       ]
+    },
+    {
+      "title": "Kitchen Basics",
+      "difficulty": "Easy",
+      "category": "Cooking",
+      "questions": [
+        {
+          "question": "What does it mean to 'sauté' food?",
+          "options": {
+            "a": { "emoji": "🔥", "text": "Cook quickly in a small amount of oil over high heat" },
+            "b": { "emoji": "💧", "text": "Boil in a large pot of water" },
+            "c": { "emoji": "❄️", "text": "Freeze before cooking" },
+            "d": { "emoji": "🫙", "text": "Marinate overnight" }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "What internal temperature should chicken reach to be safely cooked?",
+          "options": {
+            "a": { "emoji": "🌡️", "text": "145°F (63°C)" },
+            "b": { "emoji": "🌡️", "text": "165°F (74°C)" },
+            "c": { "emoji": "🌡️", "text": "130°F (54°C)" },
+            "d": { "emoji": "🌡️", "text": "200°F (93°C)" }
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Why do you add salt to water when boiling pasta?",
+          "options": {
+            "a": { "emoji": "🧂", "text": "To season the pasta and add flavor" },
+            "b": { "emoji": "💧", "text": "To make the water boil faster" },
+            "c": { "emoji": "🍝", "text": "To keep pasta from sticking together" },
+            "d": { "emoji": "🔬", "text": "To kill bacteria in the water" }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "What does 'al dente' mean when cooking pasta?",
+          "options": {
+            "a": { "emoji": "🍝", "text": "Cooked until very soft" },
+            "b": { "emoji": "🍝", "text": "Firm to the bite, slightly undercooked in the center" },
+            "c": { "emoji": "🍝", "text": "Fried before boiling" },
+            "d": { "emoji": "🍝", "text": "Rinsed with cold water after cooking" }
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Which knife cut produces thin, uniform matchstick-shaped pieces?",
+          "options": {
+            "a": { "emoji": "🔪", "text": "Dice" },
+            "b": { "emoji": "🔪", "text": "Chiffonade" },
+            "c": { "emoji": "🔪", "text": "Julienne" },
+            "d": { "emoji": "🔪", "text": "Mince" }
+          },
+          "answer": "c"
+        },
+        {
+          "question": "How can you tell a pan is hot enough before adding oil?",
+          "options": {
+            "a": { "emoji": "💧", "text": "Flick a drop of water in — it should sizzle and evaporate" },
+            "b": { "emoji": "✋", "text": "Touch the pan with your finger" },
+            "c": { "emoji": "🌡️", "text": "Wait exactly 5 minutes" },
+            "d": { "emoji": "🍳", "text": "Add food and see if it sticks" }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "What is the safest way to thaw frozen meat?",
+          "options": {
+            "a": { "emoji": "🏠", "text": "Leave it on the counter overnight" },
+            "b": { "emoji": "❄️", "text": "Thaw in the refrigerator" },
+            "c": { "emoji": "☀️", "text": "Place it in direct sunlight" },
+            "d": { "emoji": "🚿", "text": "Run under hot tap water for an hour" }
+          },
+          "answer": "b"
+        },
+        {
+          "question": "What does 'fold' mean in baking?",
+          "options": {
+            "a": { "emoji": "🥄", "text": "Mix vigorously with an electric mixer" },
+            "b": { "emoji": "🥄", "text": "Gently combine ingredients with a spatula to keep air in the batter" },
+            "c": { "emoji": "🥄", "text": "Stir in a circular motion for 10 minutes" },
+            "d": { "emoji": "🥄", "text": "Shake the bowl back and forth" }
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Why should you let meat rest after cooking?",
+          "options": {
+            "a": { "emoji": "🥩", "text": "To let it cool down before refrigerating" },
+            "b": { "emoji": "🥩", "text": "So the juices redistribute throughout the meat" },
+            "c": { "emoji": "🥩", "text": "To allow extra salt to absorb" },
+            "d": { "emoji": "🥩", "text": "So the outside gets crispy" }
+          },
+          "answer": "b"
+        },
+        {
+          "question": "What type of pan is best for searing meat?",
+          "options": {
+            "a": { "emoji": "🍳", "text": "Non-stick pan" },
+            "b": { "emoji": "🍳", "text": "Cast iron or stainless steel pan" },
+            "c": { "emoji": "🍳", "text": "Glass baking dish" },
+            "d": { "emoji": "🍳", "text": "Plastic microwave-safe bowl" }
+          },
+          "answer": "b"
+        }
+      ]
+    },
+    {
+      "title": "Cooking Safety & Storage",
+      "difficulty": "Easy",
+      "category": "Cooking",
+      "questions": [
+        {
+          "question": "What is the 'danger zone' temperature range where bacteria grow rapidly in food?",
+          "options": {
+            "a": { "emoji": "🌡️", "text": "32°F–70°F (0°C–21°C)" },
+            "b": { "emoji": "🌡️", "text": "40°F–140°F (4°C–60°C)" },
+            "c": { "emoji": "🌡️", "text": "150°F–200°F (65°C–93°C)" },
+            "d": { "emoji": "🌡️", "text": "0°F–32°F (-18°C–0°C)" }
+          },
+          "answer": "b"
+        },
+        {
+          "question": "How long can cooked leftovers safely stay in the refrigerator?",
+          "options": {
+            "a": { "emoji": "📅", "text": "1 day" },
+            "b": { "emoji": "📅", "text": "3–4 days" },
+            "c": { "emoji": "📅", "text": "2 weeks" },
+            "d": { "emoji": "📅", "text": "1 month" }
+          },
+          "answer": "b"
+        },
+        {
+          "question": "Which cutting board practice helps prevent cross-contamination?",
+          "options": {
+            "a": { "emoji": "🔪", "text": "Use the same board for meat and vegetables to save dishes" },
+            "b": { "emoji": "🔪", "text": "Use separate boards for raw meat and produce" },
+            "c": { "emoji": "🔪", "text": "Rinse the board with cold water between uses" },
+            "d": { "emoji": "🔪", "text": "Only use glass cutting boards" }
+          },
+          "answer": "b"
+        },
+        {
+          "question": "What should you do if a grease fire starts in your pan?",
+          "options": {
+            "a": { "emoji": "💧", "text": "Pour water on it immediately" },
+            "b": { "emoji": "🍳", "text": "Slide a lid over the pan and turn off the heat" },
+            "c": { "emoji": "💨", "text": "Blow on it to put it out" },
+            "d": { "emoji": "🏃", "text": "Carry the pan outside" }
+          },
+          "answer": "b"
+        },
+        {
+          "question": "How long after washing your hands before cooking are they considered clean?",
+          "options": {
+            "a": { "emoji": "🙌", "text": "As long as you don't touch your face or raw meat again" },
+            "b": { "emoji": "🙌", "text": "1 hour" },
+            "c": { "emoji": "🙌", "text": "Until you sweat" },
+            "d": { "emoji": "🙌", "text": "5 minutes" }
+          },
+          "answer": "a"
+        }
+      ]
+    },
+    {
+      "title": "Building a Budget",
+      "difficulty": "Easy",
+      "category": "Budgeting",
+      "questions": [
+        {
+          "question": "What is a budget?",
+          "options": {
+            "a": { "emoji": "📊", "text": "A plan for how you will spend and save your money" },
+            "b": { "emoji": "💳", "text": "A type of credit card" },
+            "c": { "emoji": "🏦", "text": "A savings account with high interest" },
+            "d": { "emoji": "📋", "text": "A list of things you want to buy" }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "What does the 50/30/20 budgeting rule suggest?",
+          "options": {
+            "a": { "emoji": "📊", "text": "50% needs, 30% wants, 20% savings/debt" },
+            "b": { "emoji": "📊", "text": "50% savings, 30% needs, 20% fun" },
+            "c": { "emoji": "📊", "text": "50% rent, 30% food, 20% everything else" },
+            "d": { "emoji": "📊", "text": "50% investments, 30% bills, 20% groceries" }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "What is a 'fixed expense'?",
+          "options": {
+            "a": { "emoji": "📌", "text": "A cost that stays the same every month, like rent" },
+            "b": { "emoji": "📌", "text": "An expense you can always avoid" },
+            "c": { "emoji": "📌", "text": "A one-time purchase" },
+            "d": { "emoji": "📌", "text": "Money you earn from a side job" }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "What is an emergency fund?",
+          "options": {
+            "a": { "emoji": "🆘", "text": "Money saved specifically for unexpected expenses" },
+            "b": { "emoji": "🆘", "text": "A government program for low-income families" },
+            "c": { "emoji": "🆘", "text": "A credit card with a low interest rate" },
+            "d": { "emoji": "🆘", "text": "Extra cash you keep in your car" }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "How many months of living expenses is typically recommended for an emergency fund?",
+          "options": {
+            "a": { "emoji": "📅", "text": "1 month" },
+            "b": { "emoji": "📅", "text": "3–6 months" },
+            "c": { "emoji": "📅", "text": "10 months" },
+            "d": { "emoji": "📅", "text": "2 years" }
+          },
+          "answer": "b"
+        },
+        {
+          "question": "What is 'paying yourself first'?",
+          "options": {
+            "a": { "emoji": "💰", "text": "Putting money into savings before spending on anything else" },
+            "b": { "emoji": "💰", "text": "Spending on fun before paying bills" },
+            "c": { "emoji": "💰", "text": "Paying off credit cards before saving" },
+            "d": { "emoji": "💰", "text": "Treating yourself to a reward every payday" }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "What is the difference between a need and a want?",
+          "options": {
+            "a": { "emoji": "🛒", "text": "Needs are essential for survival; wants improve comfort or enjoyment" },
+            "b": { "emoji": "🛒", "text": "Wants are always cheaper than needs" },
+            "c": { "emoji": "🛒", "text": "There is no real difference" },
+            "d": { "emoji": "🛒", "text": "Needs change every month; wants are constant" }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "Which is an example of a variable expense?",
+          "options": {
+            "a": { "emoji": "🔄", "text": "Monthly rent" },
+            "b": { "emoji": "🔄", "text": "Grocery spending" },
+            "c": { "emoji": "🔄", "text": "Car insurance premium" },
+            "d": { "emoji": "🔄", "text": "Netflix subscription" }
+          },
+          "answer": "b"
+        },
+        {
+          "question": "What does tracking your expenses help you do?",
+          "options": {
+            "a": { "emoji": "📈", "text": "See where your money is going and find areas to cut back" },
+            "b": { "emoji": "📈", "text": "Automatically increase your income" },
+            "c": { "emoji": "📈", "text": "Avoid paying taxes" },
+            "d": { "emoji": "📈", "text": "Get a better credit score immediately" }
+          },
+          "answer": "a"
+        },
+        {
+          "question": "What is a common sign that you are living beyond your means?",
+          "options": {
+            "a": { "emoji": "⚠️", "text": "You consistently spend more than you earn each month" },
+            "b": { "emoji": "⚠️", "text": "You have too much money in savings" },
+            "c": { "emoji": "⚠️", "text": "You only buy things on sale" },
+            "d": { "emoji": "⚠️", "text": "You have no credit cards" }
+          },
+          "answer": "a"
+        }
+      ]
     }
   ]
 }

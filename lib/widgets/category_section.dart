@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/lesson_item.dart';
-import '../pages/car_maintenance_lesson.dart';
-import '../pages/quiz_page.dart';
-import '../pages/housekeeping_lesson.dart';
+import '../pages/lesson_intro_page.dart';
 
 class CategorySection extends StatelessWidget {
   final String title;
@@ -154,23 +152,12 @@ class _LessonTileState extends State<_LessonTile> {
                     width: double.infinity,
                     child: ElevatedButton(
                       onPressed: () {
-                        if (widget.lesson.routeName == '/housekeeping') {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => HousekeepingLessonPage(lesson: widget.lesson),
-                            ),
-                          );
-                        } else if (widget.lesson.routeName != null) {
-                          Navigator.pushNamed(context, widget.lesson.routeName!);
-                        } else {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => QuizPage(lesson: widget.lesson),
-                            ),
-                          );
-                        }
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => LessonIntroPage(lesson: widget.lesson),
+                          ),
+                        );
                       },
                       child: const Text("Start"),
                     ),

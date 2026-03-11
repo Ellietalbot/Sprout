@@ -171,67 +171,65 @@ class _HomePageState extends State<HomePage> {
             CategorySection(
               title: "Cooking",
               titleColor: Colors.orange,
-              lessons: [
-                LessonItem(
-                  title: "Boil Pasta",
-                  description: "Learn how to properly boil pasta.",
-                  difficulty: "Easy",
-                  duration: "5 min",
-                ),
-                LessonItem(
-                  title: "Cook Chicken",
-                  description: "Safely cook chicken on stovetop.",
-                  difficulty: "Medium",
-                  duration: "10 min",
-                ),
-              ],
+              lessons: lessons
+                  .where((l) => l['category'] == 'Cooking')
+                  .map((l) => LessonItem(
+                        title: l['title'],
+                        description: "Learn about ${l['title'].toLowerCase()}.",
+                        difficulty: l['difficulty'],
+                        duration: "${(l['questions'] as List).length} questions",
+                        routeName: '/cooking',
+                        questions: l['questions'],
+                      ))
+                  .toList(),
             ),
 
             CategorySection(
               title: "Budgeting",
-              titleColor: Colors.green,
-              lessons: [
-                LessonItem(
-                  title: "Track Expenses",
-                  description: "Learn to track your daily expenses.",
-                  difficulty: "Easy",
-                  duration: "4 min",
-                ),
-                LessonItem(
-                  title: "Create a Budget Plan",
-                  description: "Build your first monthly budget.",
-                  difficulty: "Medium",
-                  duration: "8 min",
-                ),
-              ],
+              titleColor: Colors.teal,
+              lessons: lessons
+                  .where((l) => l['category'] == 'Budgeting')
+                  .map((l) => LessonItem(
+                        title: l['title'],
+                        description: "Learn about ${l['title'].toLowerCase()}.",
+                        difficulty: l['difficulty'],
+                        duration: "${(l['questions'] as List).length} questions",
+                        routeName: '/budgeting',
+                        questions: l['questions'],
+                      ))
+                  .toList(),
             ),
 
             CategorySection(
               title: "Car Care",
               titleColor: Colors.blue,
-              lessons: [
-                LessonItem(
-                  title: "Check Tire Pressure",
-                  description: "Learn how to check and maintain proper tire pressure.",
-                  difficulty: "Easy",
-                  duration: "3 min",
-                  routeName: '/car-maintenance',
-                ),
-                LessonItem(
-                  title: "Change Engine Oil",
-                  description: "Understand when and how to change engine oil.",
-                  difficulty: "Medium",
-                  duration: "7 min",
-                  routeName: '/car-maintenance',
-                ),
-                LessonItem(
-                  title: "Replace Windshield Wipers",
-                  description: "Step-by-step guide to replacing wiper blades.",
-                  difficulty: "Easy",
-                  duration: "4 min",
-                  routeName: '/car-maintenance',
-                ),
-              ],
+              lessons: lessons
+                  .where((l) => l['category'] == 'Car Care')
+                  .map((l) => LessonItem(
+                        title: l['title'],
+                        description: "Learn about ${l['title'].toLowerCase()}.",
+                        difficulty: l['difficulty'],
+                        duration: "${(l['questions'] as List).length} questions",
+                        routeName: '/car-care',
+                        questions: l['questions'],
+                      ))
+                  .toList(),
+            ),
+
+            CategorySection(
+              title: "Time Management",
+              titleColor: Colors.purple,
+              lessons: lessons
+                  .where((l) => l['category'] == 'Time Management')
+                  .map((l) => LessonItem(
+                        title: l['title'],
+                        description: "Learn about ${l['title'].toLowerCase()}.",
+                        difficulty: l['difficulty'],
+                        duration: "${(l['questions'] as List).length} questions",
+                        routeName: '/time-management',
+                        questions: l['questions'],
+                      ))
+                  .toList(),
             ),
             CategorySection(
               title: "Cleaning",
@@ -247,6 +245,22 @@ class _HomePageState extends State<HomePage> {
                           questions: l['questions'],
                         ))
                     .toList(),
+            ),
+
+            CategorySection(
+              title: "Finances",
+              titleColor: Colors.green,
+              lessons: lessons
+                  .where((l) => l['category'] == 'Finances')
+                  .map((l) => LessonItem(
+                        title: l['title'],
+                        description: "Learn about ${l['title'].toLowerCase()}.",
+                        difficulty: l['difficulty'],
+                        duration: "${(l['questions'] as List).length} questions",
+                        routeName: '/finances',
+                        questions: l['questions'],
+                      ))
+                  .toList(),
             ),
 
             const SizedBox(height: 40),

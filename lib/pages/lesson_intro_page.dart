@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/lesson_item.dart';
 import '../pages/housekeeping_quiz.dart';
+import '../widgets/lesson_tips_widget.dart';
 
 class LessonIntroPage extends StatelessWidget {
   final LessonItem lesson;
@@ -37,7 +38,7 @@ class LessonIntroPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text(lesson.title)),
       body: SafeArea(
-        child: Padding(
+        child: SingleChildScrollView(
           padding: const EdgeInsets.all(24.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -99,7 +100,12 @@ class LessonIntroPage extends StatelessWidget {
                 ],
               ),
 
-              const Spacer(),
+              const SizedBox(height: 28),
+
+              // ── Dynamic tips from tips.json, matched by lesson title ──
+              LessonTipsWidget(lessonTitle: lesson.title),
+
+              const SizedBox(height: 28),
 
               // Take Quiz Button
               SizedBox(

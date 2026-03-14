@@ -1,0 +1,486 @@
+{
+  "Kitchen Basics": [
+    {
+      "emoji": "🔥",
+      "title": "Preheat Your Pan Properly",
+      "description": "Let your pan heat up before adding oil or food. A properly heated pan helps create better searing and prevents food from sticking."
+    },
+    {
+      "emoji": "🌡️",
+      "title": "Use a Food Thermometer",
+      "description": "A thermometer ensures meats are cooked to safe internal temperatures, helping prevent undercooked food and foodborne illness."
+    },
+    {
+      "emoji": "🔪",
+      "title": "Practice Proper Knife Techniques",
+      "description": "Learning basic cuts like dice, mince, and julienne helps ingredients cook evenly and improves presentation."
+    },
+    {
+      "emoji": "🥩",
+      "title": "Let Meat Rest After Cooking",
+      "description": "Allowing meat to rest for a few minutes lets juices redistribute, making the final result more tender and flavorful."
+    }
+  ],
+  "Cooking Safety & Storage": [
+    {
+      "emoji": "🌡️",
+      "title": "Avoid the Temperature Danger Zone",
+      "description": "Bacteria multiply quickly between 40°F and 140°F (4°C–60°C), so keep hot foods hot and cold foods cold."
+    },
+    {
+      "emoji": "🧊",
+      "title": "Store Leftovers Promptly",
+      "description": "Refrigerate leftovers within two hours and consume them within 3–4 days to reduce the risk of foodborne illness."
+    },
+    {
+      "emoji": "🔪",
+      "title": "Prevent Cross-Contamination",
+      "description": "Use separate cutting boards and utensils for raw meat and fresh produce to avoid spreading harmful bacteria."
+    },
+    {
+      "emoji": "🍳",
+      "title": "Know How to Handle Grease Fires",
+      "description": "Never pour water on a grease fire. Instead, cover the pan with a lid or baking sheet and turn off the heat."
+    }
+  ],
+  "Dashboard Warning Lights": [
+    {
+      "emoji": "🚦",
+      "title": "Understand Warning Colors",
+      "description": "Red lights usually mean stop immediately, while yellow or orange lights indicate issues that should be checked soon."
+    },
+    {
+      "emoji": "⚙️",
+      "title": "Don't Ignore the Check Engine Light",
+      "description": "A solid check engine light signals a problem with the engine or emissions system and should be diagnosed soon."
+    },
+    {
+      "emoji": "🌡️",
+      "title": "Watch for Overheating",
+      "description": "If the temperature light appears, pull over and shut off the engine to prevent serious damage."
+    },
+    {
+      "emoji": "📖",
+      "title": "Use Your Owner's Manual",
+      "description": "If you see a symbol you don't recognize, the owner's manual explains what each dashboard light means."
+    }
+  ],
+  "Tire Pressure": [
+    {
+      "emoji": "🗓️",
+      "title": "Check Pressure Monthly",
+      "description": "Regularly checking tire pressure helps maintain safety, fuel efficiency, and tire lifespan."
+    },
+    {
+      "emoji": "❄️",
+      "title": "Check Tires When Cold",
+      "description": "Tire pressure readings are most accurate when the tires haven't been driven on recently."
+    },
+    {
+      "emoji": "🏷️",
+      "title": "Follow the Door Sticker",
+      "description": "The recommended PSI is usually found on a sticker inside the driver's door, not on the tire sidewall."
+    },
+    {
+      "emoji": "🛞",
+      "title": "Avoid Underinflation",
+      "description": "Driving on low tire pressure increases wear and can raise the risk of dangerous blowouts."
+    }
+  ],
+  "Engine Oil": [
+    {
+      "emoji": "🔧",
+      "title": "Check Oil With the Dipstick",
+      "description": "Use the dipstick to quickly verify if your oil level is between the minimum and maximum marks."
+    },
+    {
+      "emoji": "🖤",
+      "title": "Watch Oil Color",
+      "description": "Very dark or thick oil may indicate it's dirty and needs to be replaced."
+    },
+    {
+      "emoji": "🛢️",
+      "title": "Change Oil Regularly",
+      "description": "Most vehicles require oil changes every 3,000–7,500 miles depending on the type of oil used."
+    },
+    {
+      "emoji": "💥",
+      "title": "Low Oil Can Damage Engines",
+      "description": "Running an engine with too little oil can cause severe internal damage and expensive repairs."
+    }
+  ],
+  "Jump Starting a Car": [
+    {
+      "emoji": "🔴",
+      "title": "Connect Red First",
+      "description": "Always connect the red cable to the positive terminal of the dead battery before attaching other cables."
+    },
+    {
+      "emoji": "🔩",
+      "title": "Ground the Black Cable",
+      "description": "Attach the final black cable to a metal ground point on the engine instead of the dead battery terminal."
+    },
+    {
+      "emoji": "⏱️",
+      "title": "Let the Car Run After Starting",
+      "description": "Allow the car to run for 10–15 minutes so the battery can recharge."
+    },
+    {
+      "emoji": "⚡",
+      "title": "Watch for Sparks",
+      "description": "Incorrect cable order or corroded terminals can cause sparks or damage the electrical system."
+    }
+  ],
+  "Buying & Maintaining a Used Car": [
+    {
+      "emoji": "📋",
+      "title": "Check the Vehicle History",
+      "description": "A VIN report can reveal accidents, flood damage, and past ownership records."
+    },
+    {
+      "emoji": "🚗",
+      "title": "Always Test Drive",
+      "description": "Driving the car helps you detect unusual sounds, handling problems, or engine issues."
+    },
+    {
+      "emoji": "🔧",
+      "title": "Get a Mechanic Inspection",
+      "description": "A professional inspection before purchase can uncover hidden mechanical problems."
+    },
+    {
+      "emoji": "💰",
+      "title": "Budget for Ownership",
+      "description": "Consider insurance, registration, fuel, and maintenance when calculating the true cost of the car."
+    }
+  ],
+  "What Is Time Management?": [
+    {
+      "emoji": "📋",
+      "title": "Plan Your Time",
+      "description": "Time management means planning how you will use your time so important tasks get done efficiently."
+    },
+    {
+      "emoji": "📝",
+      "title": "Use To-Do Lists",
+      "description": "Writing tasks in a list helps you remember responsibilities and track what you complete."
+    },
+    {
+      "emoji": "🎯",
+      "title": "Focus on Important Tasks",
+      "description": "Good time management helps you identify which tasks matter most and complete them first."
+    },
+    {
+      "emoji": "😌",
+      "title": "Reduce Stress",
+      "description": "Planning your time helps prevent missed deadlines and reduces last-minute pressure."
+    }
+  ],
+  "Planning Your Day": [
+    {
+      "emoji": "🌅",
+      "title": "Plan Early",
+      "description": "Create your daily plan in the morning or the night before so you start the day with clear priorities."
+    },
+    {
+      "emoji": "📋",
+      "title": "List Important Tasks",
+      "description": "Include required tasks, responsibilities, and appointments so nothing important is forgotten."
+    },
+    {
+      "emoji": "📅",
+      "title": "Use Calendars and Reminders",
+      "description": "Calendar apps or planners help track deadlines and upcoming commitments."
+    },
+    {
+      "emoji": "🎯",
+      "title": "Keep Plans Realistic",
+      "description": "Make sure your daily plan includes only tasks that are achievable within the available time."
+    }
+  ],
+  "Priorities & Deadlines": [
+    {
+      "emoji": "🎯",
+      "title": "Prioritize Important Tasks",
+      "description": "Focus on tasks that are both important and urgent before moving on to less critical work."
+    },
+    {
+      "emoji": "⏰",
+      "title": "Watch Deadlines",
+      "description": "Deadlines indicate when tasks must be completed, so plan enough time to finish them."
+    },
+    {
+      "emoji": "🔥",
+      "title": "Handle Urgent Tasks First",
+      "description": "Tasks that are due soon should be addressed before those with later deadlines."
+    },
+    {
+      "emoji": "📋",
+      "title": "Use Priority Lists",
+      "description": "Ranking tasks from most to least important helps you decide where to focus your effort."
+    }
+  ],
+  "Time Wasters & Focus": [
+    {
+      "emoji": "📱",
+      "title": "Limit Distractions",
+      "description": "Activities like endless social media scrolling can consume time and reduce productivity."
+    },
+    {
+      "emoji": "🤫",
+      "title": "Create a Focused Environment",
+      "description": "Working in a quiet space with fewer interruptions helps improve concentration."
+    },
+    {
+      "emoji": "⏱️",
+      "title": "Work in Focused Sessions",
+      "description": "Short focused work sessions with breaks help maintain attention and prevent burnout."
+    },
+    {
+      "emoji": "🚶",
+      "title": "Take Healthy Breaks",
+      "description": "Short breaks such as stretching or walking help refresh your focus and energy."
+    }
+  ],
+  "Balancing Life, Work, and Energy": [
+    {
+      "emoji": "⚡",
+      "title": "Work During High-Energy Times",
+      "description": "Schedule difficult or demanding tasks when your energy levels are highest."
+    },
+    {
+      "emoji": "⚖️",
+      "title": "Maintain Balance",
+      "description": "A healthy schedule includes work, rest, personal activities, and time to recharge."
+    },
+    {
+      "emoji": "🔥",
+      "title": "Avoid Burnout",
+      "description": "Overloading your schedule can lead to exhaustion and reduced productivity."
+    },
+    {
+      "emoji": "🌊",
+      "title": "Stay Flexible",
+      "description": "Unexpected changes happen, so adjusting your schedule helps keep plans realistic."
+    }
+  ],
+  "Bathroom Care": [
+    {
+      "emoji": "🌬️",
+      "title": "Ventilate After Showers",
+      "description": "Turn on the bathroom fan or open a window after showering to remove moisture and reduce the risk of mold and mildew."
+    },
+    {
+      "emoji": "🚽",
+      "title": "Use Separate Cleaning Tools",
+      "description": "Keep toilet brushes and bathroom sponges separate from other cleaning tools to prevent spreading bacteria."
+    },
+    {
+      "emoji": "🧽",
+      "title": "Wipe Shower Surfaces",
+      "description": "Rinse or wipe shower walls and glass after use to prevent soap scum buildup and make deep cleaning easier."
+    },
+    {
+      "emoji": "🧺",
+      "title": "Wash Towels Regularly",
+      "description": "Bathroom towels and bath mats collect moisture and bacteria, so they should be washed frequently."
+    }
+  ],
+  "Trash & Recycling": [
+    {
+      "emoji": "♻️",
+      "title": "Rinse Recyclables",
+      "description": "Rinse food containers before recycling to prevent contamination of other recyclable materials."
+    },
+    {
+      "emoji": "🗑️",
+      "title": "Take Trash Out Promptly",
+      "description": "Remove trash when the bag becomes full or starts to smell to maintain a clean and hygienic home."
+    },
+    {
+      "emoji": "🥤",
+      "title": "Sort Recyclable Items",
+      "description": "Separate items like plastic bottles, cans, and cardboard from regular trash so they can be recycled properly."
+    },
+    {
+      "emoji": "⚠️",
+      "title": "Dispose of Sharp Items Safely",
+      "description": "Wrap broken glass or sharp objects in paper or cardboard before throwing them away to prevent injuries."
+    }
+  ],
+  "Cleaning and Organizing": [
+    {
+      "emoji": "⬆️",
+      "title": "Clean From Top to Bottom",
+      "description": "Start cleaning higher surfaces like shelves and counters before floors so dust falls to areas that will be cleaned later."
+    },
+    {
+      "emoji": "📦",
+      "title": "Declutter First",
+      "description": "Remove items you no longer need before organizing a space so it becomes easier to keep things tidy."
+    },
+    {
+      "emoji": "🧴",
+      "title": "Use Gentle Cleaners",
+      "description": "Mild soap and water are safe for most furniture surfaces and help avoid damaging materials."
+    },
+    {
+      "emoji": "🧺",
+      "title": "Store Cleaning Supplies Accessibly",
+      "description": "Keep frequently used cleaning tools in easy-to-reach locations so it is easier to clean regularly."
+    }
+  ],
+  "Laundry Care": [
+    {
+      "emoji": "👕",
+      "title": "Sort Laundry by Color",
+      "description": "Separate light and dark clothing to prevent color bleeding during the wash."
+    },
+    {
+      "emoji": "👖",
+      "title": "Check Pockets First",
+      "description": "Always check pockets before washing clothes to avoid damaging the washing machine or other items."
+    },
+    {
+      "emoji": "🔄",
+      "title": "Turn Clothes Inside Out",
+      "description": "Turning printed or graphic clothing inside out helps protect designs from fading or cracking."
+    },
+    {
+      "emoji": "🧼",
+      "title": "Treat Stains Quickly",
+      "description": "Apply soap or stain remover as soon as possible to improve the chances of removing the stain."
+    }
+  ],
+  "Kitchen Hygiene": [
+    {
+      "emoji": "🧼",
+      "title": "Prevent Cross-Contamination",
+      "description": "Wash hands, utensils, and cutting boards after handling raw meat to prevent bacteria from spreading."
+    },
+    {
+      "emoji": "🥩",
+      "title": "Store Raw Meat Safely",
+      "description": "Keep raw meat on the bottom shelf of the refrigerator so juices cannot drip onto other foods."
+    },
+    {
+      "emoji": "✨",
+      "title": "Clean Spills Immediately",
+      "description": "Wipe spills right away to prevent bacteria growth and reduce the risk of slipping."
+    },
+    {
+      "emoji": "🧊",
+      "title": "Clean the Refrigerator Regularly",
+      "description": "Check the fridge often and remove expired or spoiled food to maintain food safety."
+    }
+  ],
+  "Budgeting & Spending Habits": [
+    {
+      "emoji": "📊",
+      "title": "Follow the 50/30/20 Rule",
+      "description": "Allocate about 50% of your income to needs, 30% to wants, and 20% to savings or debt repayment to maintain balanced financial habits."
+    },
+    {
+      "emoji": "🧾",
+      "title": "Track Every Expense",
+      "description": "Recording what you spend each day helps you identify wasteful spending and stay accountable to your budget."
+    },
+    {
+      "emoji": "💰",
+      "title": "Pay Yourself First",
+      "description": "Automatically move a portion of your paycheck into savings before spending on anything else."
+    },
+    {
+      "emoji": "⚠️",
+      "title": "Watch for Lifestyle Creep",
+      "description": "As your income increases, avoid increasing your spending at the same pace so you can grow your savings."
+    }
+  ],
+  "Banking & Emergency Funds": [
+    {
+      "emoji": "🏦",
+      "title": "Separate Checking and Savings",
+      "description": "Use checking for daily spending and savings accounts for storing money you don't plan to use immediately."
+    },
+    {
+      "emoji": "📈",
+      "title": "Use a High-Yield Savings Account",
+      "description": "A HYSA typically offers much higher interest rates than traditional savings accounts, helping your money grow faster."
+    },
+    {
+      "emoji": "🛟",
+      "title": "Build an Emergency Fund",
+      "description": "Aim to save 3–6 months of essential expenses to protect yourself from job loss or unexpected costs."
+    },
+    {
+      "emoji": "🚗",
+      "title": "Use Emergency Funds Only for Real Emergencies",
+      "description": "Unexpected events like medical bills or car repairs are appropriate uses, while vacations or shopping are not."
+    }
+  ],
+  "Credit & Debt Management": [
+    {
+      "emoji": "📅",
+      "title": "Always Pay Bills on Time",
+      "description": "Payment history is the largest factor in your credit score, so even one late payment can hurt your credit."
+    },
+    {
+      "emoji": "📉",
+      "title": "Keep Credit Utilization Low",
+      "description": "Try to use less than 30% of your total credit limit to maintain a healthy credit score."
+    },
+    {
+      "emoji": "🏔️",
+      "title": "Use a Debt Payoff Strategy",
+      "description": "Methods like the Debt Snowball or Debt Avalanche help you systematically eliminate debt."
+    },
+    {
+      "emoji": "🔍",
+      "title": "Limit Hard Credit Inquiries",
+      "description": "Applying for many loans or credit cards in a short period can temporarily lower your credit score."
+    }
+  ],
+  "Taxes & Income": [
+    {
+      "emoji": "📄",
+      "title": "Understand Your Tax Forms",
+      "description": "Forms like W-2 and 1099 report your income to the IRS and are necessary when filing your taxes."
+    },
+    {
+      "emoji": "🧾",
+      "title": "Know the Difference Between Credits and Deductions",
+      "description": "Deductions lower your taxable income while credits reduce your tax bill dollar-for-dollar."
+    },
+    {
+      "emoji": "🗓️",
+      "title": "Remember the Tax Deadline",
+      "description": "Most U.S. federal income taxes must be filed by April 15 each year unless an extension is filed."
+    },
+    {
+      "emoji": "📊",
+      "title": "Adjust Your W-4 Carefully",
+      "description": "Your W-4 determines how much tax your employer withholds, which affects whether you owe money or receive a refund."
+    }
+  ],
+  "Investing & Future Planning": [
+    {
+      "emoji": "💼",
+      "title": "Take Advantage of Employer 401(k) Matching",
+      "description": "Employer matching contributions are essentially free money added to your retirement savings."
+    },
+    {
+      "emoji": "🌱",
+      "title": "Start Investing Early",
+      "description": "The earlier you begin investing, the more time compound interest has to grow your money."
+    },
+    {
+      "emoji": "📈",
+      "title": "Use Low-Cost Index Funds or ETFs",
+      "description": "These funds track the market and often have lower fees compared to actively managed investments."
+    },
+    {
+      "emoji": "⏳",
+      "title": "Focus on Time in the Market",
+      "description": "Long-term investing typically performs better than trying to predict short-term market movements."
+    }
+  ]
+}

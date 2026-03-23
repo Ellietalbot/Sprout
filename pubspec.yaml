@@ -26,6 +26,10 @@ flutter:
   assets:
     - assets/lessons.json
     - assets/tips.json
+    - assets/Matt_Cooking.png
+    - assets/Matt_Finances.png
+    - assets/Matt_CarMaintenance.png
+    - assets/Matt_HouseCleaning.png
 
 flutter_launcher_icons:
   android: "launcher_icon"

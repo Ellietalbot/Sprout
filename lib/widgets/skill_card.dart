@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class SkillCard extends StatelessWidget{
   final String title;
-  final IconData icon;
+  final Widget icon;
 
   const SkillCard({
     super.key,
@@ -26,7 +26,11 @@ class SkillCard extends StatelessWidget{
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Icon(icon, size: 48),
+              SizedBox(
+                width: 48,
+                height: 48,
+                child: icon,
+        ),
               const SizedBox(height: 12),
               Text(
                 title,

@@ -156,11 +156,11 @@ class _HomePageState extends State<HomePage> {
                 padding: const EdgeInsets.symmetric(horizontal: 20),
                 scrollDirection: Axis.horizontal,
                 physics: const BouncingScrollPhysics(),
-                children: const [
-                  SkillCard(title: 'Cooking', icon: Icons.restaurant),
-                  SkillCard(title: 'Budgeting', icon: Icons.attach_money),
-                  SkillCard(title: 'Car Care', icon: Icons.directions_car),
-                  SkillCard(title: 'Cleaning', icon: Icons.cleaning_services),
+                children: [
+                  SkillCard(title: 'Cooking', icon: Image.asset('assets/Matt_Cooking.png', width: 48, height: 48)),
+                  SkillCard(title: 'Budgeting', icon: Image.asset('assets/Matt_Finances.png', width: 48, height: 48)),
+                  SkillCard(title: 'Car Care', icon: Image.asset('assets/Matt_CarMaintenance.png', width: 48, height: 48)),
+                  SkillCard(title: 'Cleaning', icon: Image.asset('assets/Matt_HouseCleaning.png', width: 48, height: 48)),
                 ],
               ),
             ),

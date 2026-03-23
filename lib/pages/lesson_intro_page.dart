@@ -109,7 +109,7 @@ class LessonIntroPage extends StatelessWidget {
               const SizedBox(height: 28),
 
               // Take Quiz Button
-              SizedBox(
+             SizedBox(
   width: double.infinity,
   height: 55,
   child: ElevatedButton(
@@ -137,21 +137,13 @@ class LessonIntroPage extends StatelessWidget {
         fontWeight: FontWeight.bold,
       ),
     ),
-    child: Text(questionCount == 0 ? 'No Questions Yet' : 'Take Quiz'),
-  ),
-),
-                  style: ElevatedButton.styleFrom(
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(14),
-                    ),
-                    textStyle: const TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  child: Text(questionCount == 0 ? 'No Questions Yet' : 'Take Quiz'),
+    child: Text(
+      questionCount == 0 ? 'No Questions Yet' : 'Take Quiz',
+              ),
                 ),
               ),
+
+              const SizedBox(height: 20),
             ],
           ),
         ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import '../widgets/category_section.dart';
 import '../widgets/skill_card.dart';
-import 'quiz_page.dart';
 import '../pages/completed_page.dart';
 import '../models/lesson_item.dart';
 import 'dart:convert';
@@ -105,7 +104,7 @@ class _HomePageState extends State<HomePage> {
                     children: [
                       const Text(
                         // App title
-                        'Adulting App',
+                        'Sprout',
                         style: TextStyle(
                           fontSize: 28,
                           fontWeight: FontWeight.bold,

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../pages/cooking_quiz.dart';
+import '../pages/housekeeping_quiz.dart';
 import '../models/lesson_item.dart';
 
 class CookingLessonPage extends StatelessWidget {
@@ -73,7 +73,7 @@ class CookingLessonPage extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => CookingQuiz(lesson: lesson),
+                        builder: (context) => HousekeepingQuiz(lesson: lesson),
                       ),
                     );
                   },

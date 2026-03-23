@@ -231,6 +231,7 @@ class _HomePageState extends State<HomePage> {
                     .toList(),
             ),
 
+
             CategorySection(
               title: "Finances",
               titleColor: Colors.green,

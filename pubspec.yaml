@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   firebase_core: ^4.4.0
+  cloud_firestore: ^6.1.2
   firebase_auth: ^6.1.4
   english_words: ^4.0.0
   provider: ^6.1.5
@@ -25,6 +26,10 @@ flutter:
   assets:
     - assets/lessons.json
     - assets/tips.json
+    - assets/Matt_Cooking.png
+    - assets/Matt_Finances.png
+    - assets/Matt_CarMaintenance.png
+    - assets/Matt_HouseCleaning.png
 
 flutter_launcher_icons:
   android: "launcher_icon"

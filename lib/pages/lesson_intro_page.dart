@@ -136,6 +136,8 @@ class LessonIntroPage extends StatelessWidget {
                   child: Text(questionCount == 0 ? 'No Questions Yet' : 'Take Quiz'),
                 ),
               ),
+
+              const SizedBox(height: 20),
             ],
           ),
         ),

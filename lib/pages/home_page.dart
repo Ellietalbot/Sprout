@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import '../widgets/category_section.dart';
 import '../widgets/skill_card.dart';
-import 'quiz_page.dart';
 import '../pages/completed_page.dart';
 import '../models/lesson_item.dart';
 import 'dart:convert';
@@ -105,7 +104,7 @@ class _HomePageState extends State<HomePage> {
                     children: [
                       const Text(
                         // App title
-                        'Adulting App',
+                        'Sprout',
                         style: TextStyle(
                           fontSize: 28,
                           fontWeight: FontWeight.bold,
@@ -156,11 +155,11 @@ class _HomePageState extends State<HomePage> {
                 padding: const EdgeInsets.symmetric(horizontal: 20),
                 scrollDirection: Axis.horizontal,
                 physics: const BouncingScrollPhysics(),
-                children: const [
-                  SkillCard(title: 'Cooking', icon: Icons.restaurant),
-                  SkillCard(title: 'Budgeting', icon: Icons.attach_money),
-                  SkillCard(title: 'Car Care', icon: Icons.directions_car),
-                  SkillCard(title: 'Cleaning', icon: Icons.cleaning_services),
+                children: [
+                  SkillCard(title: 'Cooking', icon: Image.asset('assets/Matt_Cooking.png', width: 48, height: 48)),
+                  SkillCard(title: 'Budgeting', icon: Image.asset('assets/Matt_Finances.png', width: 48, height: 48)),
+                  SkillCard(title: 'Car Care', icon: Image.asset('assets/Matt_CarMaintenance.png', width: 48, height: 48)),
+                  SkillCard(title: 'Cleaning', icon: Image.asset('assets/Matt_HouseCleaning.png', width: 48, height: 48)),
                 ],
               ),
             ),

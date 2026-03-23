@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import '../models/lesson_item.dart';
 import '../pages/housekeeping_quiz.dart';
 import '../widgets/lesson_tips_widget.dart';
-import '../pages/cooking_quiz.dart';
 
 class LessonIntroPage extends StatelessWidget {
   final LessonItem lesson;
@@ -109,37 +108,32 @@ class LessonIntroPage extends StatelessWidget {
               const SizedBox(height: 28),
 
               // Take Quiz Button
-             SizedBox(
-  width: double.infinity,
-  height: 55,
-  child: ElevatedButton(
-    onPressed: questionCount == 0
-        ? null
-        : () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) {
-                  if (lesson.routeName == '/cooking') {
-                    return CookingQuiz(lesson: lesson);
-                  }
-                  return HousekeepingQuiz(lesson: lesson);
-                },
-              ),
-            );
-          },
-    style: ElevatedButton.styleFrom(
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(14),
-      ),
-      textStyle: const TextStyle(
-        fontSize: 18,
-        fontWeight: FontWeight.bold,
-      ),
-    ),
-    child: Text(
-      questionCount == 0 ? 'No Questions Yet' : 'Take Quiz',
-              ),
+              SizedBox(
+                width: double.infinity,
+                height: 55,
+                child: ElevatedButton(
+                  onPressed: questionCount == 0
+                      ? null
+                      : () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) {
+                                return HousekeepingQuiz(lesson: lesson);
+                              },
+                            ),
+                          );
+                        },
+                  style: ElevatedButton.styleFrom(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(14),
+                    ),
+                    textStyle: const TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  child: Text(questionCount == 0 ? 'No Questions Yet' : 'Take Quiz'),
                 ),
               ),
 

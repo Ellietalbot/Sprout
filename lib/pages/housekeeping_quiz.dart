@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import '../widgets/option_card.dart';
 import '../models/lesson_item.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 
 class HousekeepingQuiz extends StatefulWidget {
@@ -37,10 +39,29 @@ class _HousekeepingQuizState extends State<HousekeepingQuiz> {
         hasChecked = false;
       } else {
 
+        _markLessonComplete();
         Navigator.pop(context);
       }
     });
   }
+
+  Future<void> _markLessonComplete() async {
+  final user = FirebaseAuth.instance.currentUser;
+
+  if (user == null) return;
+
+  final lessonId = widget.lesson.title; // simple unique ID
+
+  await FirebaseFirestore.instance
+      .collection('users')
+      .doc(user.uid)
+      .collection('completedLessons')
+      .doc(lessonId)
+      .set({
+    'title': widget.lesson.title,
+    'completedAt': Timestamp.now(),
+  });
+}
 
   @override
   Widget build(BuildContext context) {

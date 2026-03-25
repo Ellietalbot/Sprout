@@ -5,7 +5,6 @@ import 'firebase_options.dart';
 import 'auth/auth_wrapper.dart';
 import 'pages/home_page.dart';
 import 'pages/completed_page.dart';
-import 'pages/car_maintenance_lesson.dart';
 
 
 void main() async {
@@ -37,7 +36,6 @@ class MyApp extends StatelessWidget {
           '/': (_) => const AuthWrapper(),
           '/home': (_) => const MyHomePage(),
           '/completed': (_) => const CompletedPage(),
-          '/car-maintenance': (_) => const CarMaintenanceLessonPage(),
         },
       ),
     );

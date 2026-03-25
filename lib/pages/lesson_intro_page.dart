@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/lesson_item.dart';
-import '../pages/housekeeping_quiz.dart';
+import 'quiz_page.dart';
 import '../widgets/lesson_tips_widget.dart';
 
 class LessonIntroPage extends StatelessWidget {

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import '../widgets/category_section.dart';
 import '../widgets/skill_card.dart';
@@ -7,58 +8,7 @@ import '../models/lesson_item.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart';
 
-// Home page with NavigationRail
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
 
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  int selectedIndex = 0;
-
-  @override
-  Widget build(BuildContext context) {
-    Widget page;
-
-    // Switch between pages
-    switch (selectedIndex) {
-      case 0:
-        page = const HomePage();
-        break;
-      case 1:
-        page = const CompletedPage();
-        break;
-      default:
-        page = const HomePage();
-    }
-
-    return Scaffold(
-      body: Container(
-        color: Theme.of(context).colorScheme.primaryContainer,
-        child: page,
-      ),
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: selectedIndex,
-        onTap: (value) {
-          setState(() {
-            selectedIndex = value;
-          });
-        },
-        items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.check),
-            label: 'Completed',
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-// -------- Pages --------
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -69,6 +19,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   List<dynamic> lessons = [];
+  String selectedCategory = 'All';
 
   @override
   void initState() {
@@ -84,6 +35,28 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
+  List<dynamic> get filteredLessons {
+    if (selectedCategory == 'All') return lessons;
+    return lessons.where((l) => l['category'] == selectedCategory).toList();
+  }
+
+  Color _categoryColor(String category) {
+    switch (category) {
+      case 'Cooking':
+        return Colors.orange;
+      case 'Car Care':
+        return Colors.blue;
+      case 'Housekeeping':
+        return Colors.pink;
+      case 'Finances':
+        return Colors.green;
+      case 'Time Management':
+        return Colors.purple;
+      default:
+        return Colors.grey;
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -92,27 +65,22 @@ class _HomePageState extends State<HomePage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const SizedBox(height: 20),
-
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 20),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       const Text(
-                        // App title
-                        'Sprout',
+                        'Adulting App',
                         style: TextStyle(
                           fontSize: 28,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
                       const SizedBox(height: 6),
-
-                      // Display the email being used
                       Text(
                         FirebaseAuth.instance.currentUser?.email ?? "",
                         style: TextStyle(
@@ -122,8 +90,6 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ],
                   ),
-
-                  // Logout button
                   Container(
                     decoration: BoxDecoration(
                       color: Colors.red.shade50,
@@ -141,12 +107,7 @@ class _HomePageState extends State<HomePage> {
                 ],
               ),
             ),
-
             const SizedBox(height: 30),
-
-
-            const SizedBox(height: 20),
-            
 
             // 🔹 Horizontal Skills Section
             SizedBox(
@@ -156,6 +117,36 @@ class _HomePageState extends State<HomePage> {
                 scrollDirection: Axis.horizontal,
                 physics: const BouncingScrollPhysics(),
                 children: [
+                  SkillCard(
+                    title: 'All',
+                    icon: Icons.apps,
+                    onTap: () => setState(() => selectedCategory = 'All'),
+                  ),
+                  SkillCard(
+                    title: 'Cooking',
+                    icon: Icons.restaurant,
+                    onTap: () => setState(() => selectedCategory = 'Cooking'),
+                  ),
+                  SkillCard(
+                    title: 'Car Care',
+                    icon: Icons.directions_car,
+                    onTap: () => setState(() => selectedCategory = 'Car Care'),
+                  ),
+                  SkillCard(
+                    title: 'Housekeeping',
+                    icon: Icons.cleaning_services,
+                    onTap: () => setState(() => selectedCategory = 'Housekeeping'),
+                  ),
+                  SkillCard(
+                    title: 'Finances',
+                    icon: Icons.attach_money,
+                    onTap: () => setState(() => selectedCategory = 'Finances'),
+                  ),
+                  SkillCard(
+                    title: 'Time Management',
+                    icon: Icons.access_time,
+                    onTap: () => setState(() => selectedCategory = 'Time Management'),
+                  ),
                   SkillCard(title: 'Cooking', icon: Image.asset('assets/Matt_Cooking.png', width: 140, height: 140)),
                   SkillCard(title: 'Budgeting', icon: Image.asset('assets/Matt_Finances.png', width: 140, height: 140)),
                   SkillCard(title: 'Car Care', icon: Image.asset('assets/Matt_CarMaintenance.png', width: 140, height: 140)),
@@ -166,86 +157,27 @@ class _HomePageState extends State<HomePage> {
 
             const SizedBox(height: 30),
 
-            // 🔹 Category Sections (Team Code)
-            CategorySection(
-              title: "Cooking",
-              titleColor: Colors.orange,
-              lessons: lessons
-                  .where((l) => l['category'] == 'Cooking')
-                  .map((l) => LessonItem(
-                        title: l['title'],
-                        description: "Learn about ${l['title'].toLowerCase()}.",
-                        difficulty: l['difficulty'],
-                        duration: "${(l['questions'] as List).length} questions",
-                        routeName: '/cooking',
-                        questions: l['questions'],
-                      ))
-                  .toList(),
-            ),
-
-            CategorySection(
-              title: "Car Care",
-              titleColor: Colors.blue,
-              lessons: lessons
-                  .where((l) => l['category'] == 'Car Care')
-                  .map((l) => LessonItem(
-                        title: l['title'],
-                        description: "Learn about ${l['title'].toLowerCase()}.",
-                        difficulty: l['difficulty'],
-                        duration: "${(l['questions'] as List).length} questions",
-                        routeName: '/car-care',
-                        questions: l['questions'],
-                      ))
-                  .toList(),
-            ),
-
-            CategorySection(
-              title: "Time Management",
-              titleColor: Colors.purple,
-              lessons: lessons
-                  .where((l) => l['category'] == 'Time Management')
-                  .map((l) => LessonItem(
-                        title: l['title'],
-                        description: "Learn about ${l['title'].toLowerCase()}.",
-                        difficulty: l['difficulty'],
-                        duration: "${(l['questions'] as List).length} questions",
-                        routeName: '/time-management',
-                        questions: l['questions'],
-                      ))
-                  .toList(),
-            ),
-            CategorySection(
-              title: "Cleaning",
-              titleColor: Colors.pink,
-              lessons: lessons
-              .where((l) => l['category'] == 'Housekeeping')
-                    .map((l) => LessonItem(
-                          title: l['title'],
-                          description: "Learn about ${l['title'].toLowerCase()}.",
-                          difficulty: l['difficulty'],
-                          duration: "${(l['questions'] as List).length} questions",
-                          routeName: '/housekeeping',
-                          questions: l['questions'],
-                        ))
-                    .toList(),
-            ),
-
-
-            CategorySection(
-              title: "Finances",
-              titleColor: Colors.green,
-              lessons: lessons
-                  .where((l) => l['category'] == 'Finances')
-                  .map((l) => LessonItem(
-                        title: l['title'],
-                        description: "Learn about ${l['title'].toLowerCase()}.",
-                        difficulty: l['difficulty'],
-                        duration: "${(l['questions'] as List).length} questions",
-                        routeName: '/finances',
-                        questions: l['questions'],
-                      ))
-                  .toList(),
-            ),
+            // 🔹 Category Sections
+            ...['Cooking', 'Car Care', 'Housekeeping', 'Finances', 'Time Management']
+                .where((cat) => selectedCategory == 'All' || selectedCategory == cat)
+                .map(
+                  (cat) => CategorySection(
+                    title: cat,
+                    titleColor: _categoryColor(cat),
+                    lessons: filteredLessons
+                        .where((l) => l['category'] == cat)
+                        .map((l) => LessonItem(
+                              title: l['title'],
+                              description: "Learn about ${l['title'].toLowerCase()}.",
+                              difficulty: l['difficulty'],
+                              duration: "${(l['questions'] as List).length} questions",
+                              routeName: '/${cat.toLowerCase().replaceAll(' ', '-')}', 
+                              questions: l['questions'],
+                            ))
+                        .toList(),
+                  ),
+                )
+                .toList(),
 
             const SizedBox(height: 40),
           ],

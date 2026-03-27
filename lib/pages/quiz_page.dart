@@ -1,36 +1,82 @@
 import 'package:flutter/material.dart';
 import '../widgets/option_card.dart';
 import '../models/lesson_item.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
-class QuizPage extends StatefulWidget {
-  final LessonItem lesson; 
+class HousekeepingQuiz extends StatefulWidget {
+  final LessonItem lesson;
 
-  const QuizPage({
+  const HousekeepingQuiz({
     super.key,
-    required this.lesson, 
+    required this.lesson,
   });
 
   @override
-  State<QuizPage> createState() => _QuizPageState();
+  State<HousekeepingQuiz> createState() => _HousekeepingQuizState();
 }
 
-class _QuizPageState extends State<QuizPage> {
-  double progressValue = 0.0;
+class _HousekeepingQuizState extends State<HousekeepingQuiz> {
+  int currentIndex = 0;
+  String? selectedAnswer;
+  bool hasChecked = false;
 
-  void _handleOptionSelected() {
+  List<dynamic> get questions => widget.lesson.questions;
+
+  void _handleCheck() {
+    if (selectedAnswer == null) return;
     setState(() {
-      // ADD LOGIC 
-      progressValue += 0.25;
-      if (progressValue > 1.0) {
-        progressValue = 1.0;
+      hasChecked = true;
+    });
+  }
+
+  void _handleNext() {
+    setState(() {
+      if (currentIndex < questions.length - 1) {
+        currentIndex++;
+        selectedAnswer = null;
+        hasChecked = false;
+      } else {
+        _markLessonComplete();
+        Navigator.pop(context);
       }
     });
   }
 
+  Future<void> _markLessonComplete() async {
+  final user = FirebaseAuth.instance.currentUser;
+
+  if (user == null) return;
+
+  final lessonId = widget.lesson.title; 
+
+  await FirebaseFirestore.instance
+      .collection('users')
+      .doc(user.uid)
+      .collection('completedLessons')
+      .doc(lessonId)
+      .set({
+    'title': widget.lesson.title,
+    'completedAt': Timestamp.now(),
+  });
+}
+
   @override
   Widget build(BuildContext context) {
+    if (questions.isEmpty) {
+      return Scaffold(
+        appBar: AppBar(title: Text(widget.lesson.title)),
+        body: const Center(child: Text("No questions available.")),
+      );
+    }
+
+    final question = questions[currentIndex];
+    final options = question['options'] as Map<String, dynamic>;
+    final correctAnswer = question['answer'];
+    final progressValue = (currentIndex + 1) / questions.length;
+
     return Scaffold(
-      appBar: AppBar( // 👈 optional but recommended
+      appBar: AppBar(
         title: Text(widget.lesson.title),
       ),
       body: SafeArea(
@@ -38,6 +84,7 @@ class _QuizPageState extends State<QuizPage> {
           padding: const EdgeInsets.all(20.0),
           child: Column(
             children: [
+
               Container(
                 height: 20,
                 width: double.infinity,
@@ -63,16 +110,18 @@ class _QuizPageState extends State<QuizPage> {
                   ],
                 ),
               ),
+
               const SizedBox(height: 40),
 
-              // Question Text
-              const Text(
-                "Which one of these is a heart?",
-                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+
+              Text(
+                question['question'],
+                style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                 textAlign: TextAlign.center,
               ),
 
               const SizedBox(height: 20),
+
 
               Expanded(
                 child: Center(
@@ -83,43 +132,63 @@ class _QuizPageState extends State<QuizPage> {
                     childAspectRatio: 1.0,
                     shrinkWrap: true,
                     physics: const NeverScrollableScrollPhysics(),
-                    children: [
-                      OptionCard(
-                        emoji: "⭐",
-                        label: "Star",
-                        onTap: _handleOptionSelected,
-                      ),
-                      OptionCard(
-                        emoji: "❤️",
-                        label: "A heart",
-                        onTap: _handleOptionSelected,
-                      ),
-                      OptionCard(
-                        emoji: "🔵",
-                        label: "Circle",
-                        onTap: _handleOptionSelected,
-                      ),
-                      OptionCard(
-                        emoji: "🟩",
-                        label: "Square",
-                        onTap: _handleOptionSelected,
-                      ),
-                    ],
+                    children: options.entries.map((entry) {
+                      final key = entry.key;
+                      final value = entry.value;
+                      final isSelected = selectedAnswer == key;
+                      final isCorrect = key == correctAnswer;
+
+                      Color? cardColor;
+                      if (hasChecked && isSelected) {
+                        cardColor = isCorrect ? Colors.green.shade100 : Colors.red.shade100;
+                      } else if (isSelected) {
+                        cardColor = Colors.blue.shade100;
+                      }
+                      return OptionCard(
+                        emoji: value['emoji'] ?? '',
+                        label: value['text'] ?? '',
+                        color: cardColor,
+                        onTap: hasChecked ? () {} : () {
+                          setState(() {
+                            selectedAnswer = key;
+                          });
+                        },
+                      );
+                    }).toList(),
                   ),
                 ),
               ),
 
               const SizedBox(height: 16),
 
-              // Check Button
+              if (hasChecked && selectedAnswer != null)
+                  Container(
+                  width: double.infinity,
+                  padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
+                  decoration: BoxDecoration(
+                    color: selectedAnswer == questions[currentIndex]['answer'] ? Colors.green.shade100 : Colors.red.shade100,
+                    borderRadius: BorderRadius.circular(16),
+                  ),
+                  child: Text(
+                    selectedAnswer == questions[currentIndex]['answer'] ? "👍 Great Job" : "👎 Not quite",
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                      color: selectedAnswer == questions[currentIndex]['answer']
+                          ? Colors.green.shade800
+                          : Colors.red.shade800,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+
               SizedBox(
                 width: double.infinity,
                 height: 56,
                 child: ElevatedButton(
-                  onPressed: _handleOptionSelected,
+                  onPressed: hasChecked ? _handleNext : _handleCheck,
                   style: ElevatedButton.styleFrom(
-                    backgroundColor:
-                        const Color.fromARGB(255, 241, 73, 40),
+                    backgroundColor: const Color.fromARGB(255, 241, 73, 40),
                     foregroundColor: Colors.white,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(16),
@@ -129,7 +198,9 @@ class _QuizPageState extends State<QuizPage> {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  child: const Text("CHECK"),
+                  child: Text(
+                    hasChecked ? (currentIndex < questions.length - 1 ? "NEXT" : "FINISH") : "CHECK",
+                  ),
                 ),
               ),
 

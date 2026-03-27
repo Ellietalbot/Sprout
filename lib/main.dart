@@ -6,9 +6,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 import 'auth/auth_wrapper.dart';
 import 'pages/home_page.dart';
-import 'pages/quiz_page.dart';
 import 'pages/completed_page.dart';
-import 'pages/car_maintenance_lesson.dart';
 
 
 void main() async {

@@ -3,7 +3,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import '../widgets/category_section.dart';
 import '../widgets/skill_card.dart';
-import 'quiz_page.dart';
 import '../pages/completed_page.dart';
 import '../models/lesson_item.dart';
 import 'dart:convert';
@@ -148,6 +147,10 @@ class _HomePageState extends State<HomePage> {
                     icon: Icons.access_time,
                     onTap: () => setState(() => selectedCategory = 'Time Management'),
                   ),
+                  SkillCard(title: 'Cooking', icon: Image.asset('assets/Matt_Cooking.png', width: 140, height: 140)),
+                  SkillCard(title: 'Budgeting', icon: Image.asset('assets/Matt_Finances.png', width: 140, height: 140)),
+                  SkillCard(title: 'Car Care', icon: Image.asset('assets/Matt_CarMaintenance.png', width: 140, height: 140)),
+                  SkillCard(title: 'Cleaning', icon: Image.asset('assets/Matt_HouseCleaning.png', width: 140, height: 140)),
                 ],
               ),
             ),

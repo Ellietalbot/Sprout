@@ -1,4 +1,6 @@
+import 'dart:convert';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
@@ -22,27 +24,55 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider(
-      create: (_) => MyAppState(),
-      child: MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: 'Adulting App',
-        theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
-        ),
-
-        initialRoute: '/',
-
-        // 🔥 Named Routes (scalable)
-        routes: {
-          '/': (_) => const AuthWrapper(),
-          '/home': (_) => const MyHomePage(),
-          '/completed': (_) => const CompletedPage(),
-          '/car-maintenance': (_) => const CarMaintenanceLessonPage(),
-        },
-      ),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: const MyHomePage(),
     );
   }
 }
 
-class MyAppState extends ChangeNotifier {}
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({super.key});
+
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  int selectedIndex = 0;
+
+  @override
+  Widget build(BuildContext context) {
+    Widget page;
+
+    switch (selectedIndex) {
+      case 0:
+        page = const HomePage(); // 👈 uses your OTHER file
+        break;
+      case 1:
+        page = const CompletedPage();
+        break;
+      default:
+        page = const HomePage();
+    }
+
+    return Scaffold(
+      body: Container(
+        color: Theme.of(context).colorScheme.primaryContainer,
+        child: page,
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        currentIndex: selectedIndex,
+        onTap: (value) {
+          setState(() {
+            selectedIndex = value;
+          });
+        },
+        items: const [
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+          BottomNavigationBarItem(icon: Icon(Icons.check), label: 'Completed'),
+        ],
+      ),
+    );
+  }
+}

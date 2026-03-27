@@ -117,41 +117,42 @@ class _HomePageState extends State<HomePage> {
                 scrollDirection: Axis.horizontal,
                 physics: const BouncingScrollPhysics(),
                 children: [
-                  SkillCard(
-                    title: 'All',
-                    icon: Icons.apps,
-                    onTap: () => setState(() => selectedCategory = 'All'),
-                  ),
-                  SkillCard(
-                    title: 'Cooking',
-                    icon: Icons.restaurant,
-                    onTap: () => setState(() => selectedCategory = 'Cooking'),
-                  ),
-                  SkillCard(
-                    title: 'Car Care',
-                    icon: Icons.directions_car,
-                    onTap: () => setState(() => selectedCategory = 'Car Care'),
-                  ),
-                  SkillCard(
-                    title: 'Housekeeping',
-                    icon: Icons.cleaning_services,
-                    onTap: () => setState(() => selectedCategory = 'Housekeeping'),
-                  ),
-                  SkillCard(
-                    title: 'Finances',
-                    icon: Icons.attach_money,
-                    onTap: () => setState(() => selectedCategory = 'Finances'),
-                  ),
-                  SkillCard(
-                    title: 'Time Management',
-                    icon: Icons.access_time,
-                    onTap: () => setState(() => selectedCategory = 'Time Management'),
-                  ),
-                  SkillCard(title: 'Cooking', icon: Image.asset('assets/Matt_Cooking.png', width: 140, height: 140)),
-                  SkillCard(title: 'Budgeting', icon: Image.asset('assets/Matt_Finances.png', width: 140, height: 140)),
-                  SkillCard(title: 'Car Care', icon: Image.asset('assets/Matt_CarMaintenance.png', width: 140, height: 140)),
-                  SkillCard(title: 'Cleaning', icon: Image.asset('assets/Matt_HouseCleaning.png', width: 140, height: 140)),
-                ],
+  SkillCard(
+    title: 'All',
+    icon: const Icon(Icons.apps, size: 100),
+    onTap: () => setState(() => selectedCategory = 'All'),
+  ),
+  SkillCard(
+    title: 'Cooking',
+    icon: const Icon(Icons.restaurant, size: 100),
+    onTap: () => setState(() => selectedCategory = 'Cooking'),
+  ),
+  SkillCard(
+    title: 'Car Care',
+    icon: const Icon(Icons.directions_car, size: 100),
+    onTap: () => setState(() => selectedCategory = 'Car Care'),
+  ),
+  SkillCard(
+    title: 'Housekeeping',
+    icon: const Icon(Icons.cleaning_services, size: 100),
+    onTap: () => setState(() => selectedCategory = 'Housekeeping'),
+  ),
+  SkillCard(
+    title: 'Finances',
+    icon: const Icon(Icons.attach_money, size: 100),
+    onTap: () => setState(() => selectedCategory = 'Finances'),
+  ),
+  SkillCard(
+    title: 'Time Management',
+    icon: const Icon(Icons.access_time, size: 100),
+    onTap: () => setState(() => selectedCategory = 'Time Management'),
+  ),
+],
+                  // SkillCard(title: 'Cooking', icon: Image.asset('assets/Matt_Cooking.png', width: 140, height: 140)),
+                  // SkillCard(title: 'Budgeting', icon: Image.asset('assets/Matt_Finances.png', width: 140, height: 140)),
+                  // SkillCard(title: 'Car Care', icon: Image.asset('assets/Matt_CarMaintenance.png', width: 140, height: 140)),
+                  // SkillCard(title: 'Cleaning', icon: Image.asset('assets/Matt_HouseCleaning.png', width: 140, height: 140)),
+                //],
               ),
             ),
 

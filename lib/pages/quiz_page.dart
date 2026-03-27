@@ -4,7 +4,6 @@ import '../models/lesson_item.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
-
 class HousekeepingQuiz extends StatefulWidget {
   final LessonItem lesson;
 
@@ -38,7 +37,6 @@ class _HousekeepingQuizState extends State<HousekeepingQuiz> {
         selectedAnswer = null;
         hasChecked = false;
       } else {
-
         _markLessonComplete();
         Navigator.pop(context);
       }
@@ -50,7 +48,7 @@ class _HousekeepingQuizState extends State<HousekeepingQuiz> {
 
   if (user == null) return;
 
-  final lessonId = widget.lesson.title; // simple unique ID
+  final lessonId = widget.lesson.title; 
 
   await FirebaseFirestore.instance
       .collection('users')
@@ -146,7 +144,6 @@ class _HousekeepingQuizState extends State<HousekeepingQuiz> {
                       } else if (isSelected) {
                         cardColor = Colors.blue.shade100;
                       }
-
                       return OptionCard(
                         emoji: value['emoji'] ?? '',
                         label: value['text'] ?? '',
@@ -164,6 +161,26 @@ class _HousekeepingQuizState extends State<HousekeepingQuiz> {
 
               const SizedBox(height: 16),
 
+              if (hasChecked && selectedAnswer != null)
+                  Container(
+                  width: double.infinity,
+                  padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
+                  decoration: BoxDecoration(
+                    color: selectedAnswer == questions[currentIndex]['answer'] ? Colors.green.shade100 : Colors.red.shade100,
+                    borderRadius: BorderRadius.circular(16),
+                  ),
+                  child: Text(
+                    selectedAnswer == questions[currentIndex]['answer'] ? "👍 Great Job" : "👎 Not quite",
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                      color: selectedAnswer == questions[currentIndex]['answer']
+                          ? Colors.green.shade800
+                          : Colors.red.shade800,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
 
               SizedBox(
                 width: double.infinity,
@@ -182,9 +199,7 @@ class _HousekeepingQuizState extends State<HousekeepingQuiz> {
                     ),
                   ),
                   child: Text(
-                    hasChecked
-                        ? (currentIndex < questions.length - 1 ? "NEXT" : "FINISH")
-                        : "CHECK",
+                    hasChecked ? (currentIndex < questions.length - 1 ? "NEXT" : "FINISH") : "CHECK",
                   ),
                 ),
               ),

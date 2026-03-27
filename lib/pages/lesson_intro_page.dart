@@ -8,14 +8,32 @@ class LessonIntroPage extends StatelessWidget {
 
   const LessonIntroPage({super.key, required this.lesson});
 
-  IconData _iconForLesson(LessonItem lesson) {
+  /// Returns the asset image widget for each lesson
+  Widget _imageForLesson(LessonItem lesson) {
     final route = lesson.routeName ?? '';
-    if (route == '/housekeeping') return Icons.cleaning_services;
-    if (route == '/car-care') return Icons.directions_car;
-    if (route == '/finances') return Icons.attach_money;
-    if (route == '/time-management') return Icons.schedule;
-    if (route == '/cooking') return Icons.restaurant;
-    return Icons.menu_book;
+
+    String assetPath;
+
+    if (route == '/housekeeping') {
+      assetPath = 'assets/Matt_HouseCleaning.png';
+    } else if (route == '/car-care') {
+      assetPath = 'assets/Matt_CarMaintenance.png';
+    } else if (route == '/finances') {
+      assetPath = 'assets/Matt_Finances.png';
+    } else if (route == '/time-management') {
+      assetPath = 'assets/Matt_TimeManagement.png';
+    } else if (route == '/cooking') {
+      assetPath = 'assets/Matt_Cooking.png';
+    } else {
+      assetPath = 'assets/Matt_SocialSkills.png';
+    }
+
+    return Image.asset(
+      assetPath,
+      width: 300,
+      height: 300,
+      fit: BoxFit.contain,
+    );
   }
 
   Color _difficultyColor(String difficulty) {
@@ -43,13 +61,9 @@ class LessonIntroPage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Hero Icon
+              // Hero Image instead of Icon
               Center(
-                child: Icon(
-                  _iconForLesson(lesson),
-                  size: 90,
-                  color: Theme.of(context).colorScheme.primary,
-                ),
+                child: _imageForLesson(lesson),
               ),
 
               const SizedBox(height: 28),
@@ -102,7 +116,7 @@ class LessonIntroPage extends StatelessWidget {
 
               const SizedBox(height: 28),
 
-              // ── Dynamic tips from tips.json, matched by lesson title ──
+              // Dynamic tips from tips.json
               LessonTipsWidget(lessonTitle: lesson.title),
 
               const SizedBox(height: 28),

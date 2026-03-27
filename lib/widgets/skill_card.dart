@@ -22,20 +22,20 @@ class SkillCard extends StatelessWidget{
           borderRadius: BorderRadius.circular(20),
         ),
         child: SizedBox(
-          width: 160,
+          height: 225,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               SizedBox(
-                width: 48,
-                height: 48,
+                width: 164,
+                height: 164,
                 child: icon,
         ),
-              const SizedBox(height: 12),
+              const SizedBox(height: 8),
               Text(
                 title,
                 style: const TextStyle(
-                  fontSize: 18,
+                  fontSize: 14,
                   fontWeight: FontWeight.w600,
                 ),
               ),

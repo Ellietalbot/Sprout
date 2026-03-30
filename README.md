@@ -128,5 +128,3 @@ The software emphasizes:
 - Make it more customized, more professional.​
 - Put it on the app store!​
 - Adding account creation through Google and other services.​
-
- **Do not modify this section until the end of the semester.**

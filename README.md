@@ -110,7 +110,7 @@ The software emphasizes:
 ---
 
 ## Reflections
-### What the team learned
+### What the team learned and what went well
 - Communication is key
 - Learning the language early is key to making things easier early on.
 - GitHub workflow

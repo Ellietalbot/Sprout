@@ -1,27 +1,29 @@
 import 'package:flutter/material.dart';
 
-class SkillCard extends StatelessWidget{
+class SkillCard extends StatelessWidget {
   final String title;
   final Widget icon;
+  final VoidCallback? onTap;
 
   const SkillCard({
     super.key,
     required this.title,
     required this.icon,
+    this.onTap,
   });
-
-  
 
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.only(right: 12),
-      child: Card(
-        elevation: 6,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(20),
-        ),
-        child: SizedBox(
+      child: GestureDetector(
+        onTap: onTap,
+        child: Card(
+          elevation: 6,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(20),
+          ),
+          child: SizedBox(
           height: 225,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -29,17 +31,21 @@ class SkillCard extends StatelessWidget{
               SizedBox(
                 width: 164,
                 height: 164,
-                child: icon,
+                child: FittedBox(
+                  fit: BoxFit.contain,
+                  child: icon,
+                                                ),
         ),
-              const SizedBox(height: 8),
-              Text(
-                title,
-                style: const TextStyle(
-                  fontSize: 14,
-                  fontWeight: FontWeight.w600,
+                Text(
+                  title,
+                  style: const TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.w600,
+                  ),
+                  textAlign: TextAlign.center,
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),

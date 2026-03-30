@@ -1,11 +1,11 @@
-# ADULTING 101
+# Sprout
 ### Life skills, unlocked.
 
 ---
 
 ## Project Overview
 
-**Adulting 101** is a practical, beginner-friendly mobile application designed to teach essential life skills to young adults through simple explanations, checklists, and interactive content.
+**Sprout** is a practical, beginner-friendly mobile application designed to teach essential life skills to young adults through simple explanations, checklists, and interactive content.
 
 The goal is to make adulthood feel **manageable instead of overwhelming**.
 
@@ -24,7 +24,7 @@ The goal is to make adulthood feel **manageable instead of overwhelming**.
 
 ## Software Description
 
-Adulting 101 is a lightweight educational app—similar in spirit to **Duolingo**—focused on teaching core “adulting” skills to college students.
+Sprout is a lightweight educational app—similar in spirit to **Duolingo**—focused on teaching core “adulting” skills to college students.
 
 Topics include:
 - Budgeting
@@ -110,5 +110,23 @@ The software emphasizes:
 ---
 
 ## Reflections
+### What the team learned and what went well
+- Communication is key
+- Learning the language early is key to making things easier early on.
+- GitHub workflow
+- Emulators
+- Teamwork
+
+### What can be improved
+- Consistency in working​
+- Making sure that we always pull new changes before we work on them!​
+- Accessibility more early on​
+- Organization​
+- Get more comfortable with Flutter before we dive in.​
+
+### Future Plans for this project
+- Make it more customized, more professional.​
+- Put it on the app store!​
+- Adding account creation through Google and other services.​
 
  **Do not modify this section until the end of the semester.**

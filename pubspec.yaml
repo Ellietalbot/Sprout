@@ -30,6 +30,8 @@ flutter:
     - assets/Matt_Finances.png
     - assets/Matt_CarMaintenance.png
     - assets/Matt_HouseCleaning.png
+    - assets/Matt_TimeManagement.png
+    - assets/Matt_Right.png
 
 flutter_launcher_icons:
   android: "launcher_icon"

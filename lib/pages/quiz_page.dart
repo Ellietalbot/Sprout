@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:auto_size_text/auto_size_text.dart';
 import '../widgets/option_card.dart';
 import '../models/lesson_item.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -114,8 +115,11 @@ class _HousekeepingQuizState extends State<HousekeepingQuiz> {
               const SizedBox(height: 40),
 
 
-              Text(
+              AutoSizeText(
                 question['question'],
+                maxLines: 3,
+                minFontSize: 18,
+                stepGranularity: 1,
                 style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                 textAlign: TextAlign.center,
               ),
@@ -124,38 +128,57 @@ class _HousekeepingQuizState extends State<HousekeepingQuiz> {
 
 
               Expanded(
-                child: Center(
-                  child: GridView.count(
-                    crossAxisCount: 2,
-                    mainAxisSpacing: 16,
-                    crossAxisSpacing: 16,
-                    childAspectRatio: 1.0,
-                    shrinkWrap: true,
-                    physics: const NeverScrollableScrollPhysics(),
-                    children: options.entries.map((entry) {
-                      final key = entry.key;
-                      final value = entry.value;
-                      final isSelected = selectedAnswer == key;
-                      final isCorrect = key == correctAnswer;
+                child: LayoutBuilder(
+                  builder: (context, constraints) {
+                    const spacing = 16.0;
+                    const crossAxisCount = 2;
+                    final rowCount = (options.length / crossAxisCount).ceil();
+                    final totalSpacing = spacing * (rowCount - 1);
+                    final availableHeight = constraints.maxHeight - totalSpacing;
+                    final rawCardHeight = availableHeight / rowCount;
+                    final cardHeight = rawCardHeight < 80.0
+                        ? rawCardHeight
+                        : rawCardHeight.clamp(80.0, 220.0);
+                    final optionEntries = options.entries.toList();
 
-                      Color? cardColor;
-                      if (hasChecked && isSelected) {
-                        cardColor = isCorrect ? Colors.green.shade100 : Colors.red.shade100;
-                      } else if (isSelected) {
-                        cardColor = Colors.blue.shade100;
-                      }
-                      return OptionCard(
-                        emoji: value['emoji'] ?? '',
-                        label: value['text'] ?? '',
-                        color: cardColor,
-                        onTap: hasChecked ? () {} : () {
-                          setState(() {
-                            selectedAnswer = key;
-                          });
-                        },
-                      );
-                    }).toList(),
-                  ),
+                    return GridView.builder(
+                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                        crossAxisCount: crossAxisCount,
+                        mainAxisSpacing: spacing,
+                        crossAxisSpacing: spacing,
+                        mainAxisExtent: cardHeight,
+                      ),
+                      itemCount: optionEntries.length,
+                      physics: const NeverScrollableScrollPhysics(),
+                      itemBuilder: (context, index) {
+                        final entry = optionEntries[index];
+                        final key = entry.key;
+                        final value = entry.value;
+                        final isSelected = selectedAnswer == key;
+                        final isCorrect = key == correctAnswer;
+
+                        Color? cardColor;
+                        if (hasChecked && isSelected) {
+                          cardColor = isCorrect ? Colors.green.shade100 : Colors.red.shade100;
+                        } else if (isSelected) {
+                          cardColor = Colors.blue.shade100;
+                        }
+
+                        return OptionCard(
+                          emoji: value['emoji'] ?? '',
+                          label: value['text'] ?? '',
+                          color: cardColor,
+                          onTap: hasChecked
+                              ? () {}
+                              : () {
+                                  setState(() {
+                                    selectedAnswer = key;
+                                  });
+                                },
+                        );
+                      },
+                    );
+                  },
                 ),
               ),
 

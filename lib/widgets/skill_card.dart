@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class SkillCard extends StatelessWidget {
   final String title;
-  final IconData icon;
+  final Widget icon;
   final VoidCallback? onTap;
 
   const SkillCard({
@@ -31,7 +31,10 @@ class SkillCard extends StatelessWidget {
               SizedBox(
                 width: 164,
                 height: 164,
-                child: icon,
+                child: FittedBox(
+                  fit: BoxFit.contain,
+                  child: icon,
+                                                ),
         ),
                 Text(
                   title,

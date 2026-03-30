@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       create: (_) => MyAppState(),
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Adulting App',
+        title: 'Sprout',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         ),
